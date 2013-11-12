@@ -1,0 +1,1616 @@
+2013/11/02 23:54:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "posts".' in C:\wamp\www\fvfwebapp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(270): CController->missingAction('posts')
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): CController->run('posts')
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/posts')
+#3 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fvfwebapp/index.php/admin/posts
+HTTP_REFERER=http://localhost/fvfwebapp/admin
+---
+2013/11/02 23:54:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "posts".' in C:\wamp\www\fvfwebapp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(270): CController->missingAction('posts')
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): CController->run('posts')
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/posts')
+#3 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fvfwebapp/index.php/admin/posts
+HTTP_REFERER=http://localhost/fvfwebapp/admin
+---
+2013/11/02 23:56:35 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "posts".' in C:\wamp\www\fvfwebapp\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(782): CController->renderPartial('posts', NULL, true)
+#1 C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php(36): CController->render('posts')
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\actions\CInlineAction.php(49): AdminController->actionPosts()
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): CController->run('posts')
+#7 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/posts')
+#8 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/fvfwebapp/index.php/admin/posts
+HTTP_REFERER=http://localhost/fvfwebapp/index.php/admin
+---
+2013/11/03 00:22:37 [error] [php] Undefined variable: title (C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php:49)
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): AdminController->runAction()
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): AdminController->run()
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\wamp\www\fvfwebapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/fvfwebapp/index.php/admin/index
+in C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php (49)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/03 00:22:43 [error] [php] Undefined variable: title (C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php:49)
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): AdminController->runAction()
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): AdminController->run()
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\wamp\www\fvfwebapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/fvfwebapp/index.php/admin
+in C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php (49)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/03 00:22:45 [error] [php] Undefined variable: title (C:\wamp\www\fvfwebapp\protected\views\site\login.php:6)
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php(98): SiteController->render()
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#4 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\fvfwebapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/fvfwebapp/index.php/site/login
+in C:\wamp\www\fvfwebapp\protected\views\site\login.php (6)
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (98)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/03 00:29:05 [error] [php] Undefined variable: title (C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php:26)
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): AdminController->runAction()
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): AdminController->run()
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\wamp\www\fvfwebapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/fvfwebapp/admin
+in C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php (26)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/03 00:30:23 [error] [php] Undefined variable: title (C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php:26)
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): AdminController->runAction()
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): AdminController->run()
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\wamp\www\fvfwebapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/fvfwebapp/admin
+in C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php (26)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/03 00:32:07 [error] [php] Undefined variable: title (C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php:74)
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): AdminController->runAction()
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): AdminController->run()
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\wamp\www\fvfwebapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/fvfwebapp/index.php/admin/login
+in C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php (74)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/03 04:10:10 [error] [php] Use of undefined constant __CLAS__ - assumed '__CLAS__' (C:\wamp\www\fvfwebapp\protected\models\Post.php:5)
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): SiteController->runAction()
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#4 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\fvfwebapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/fvfwebapp/site/trabajos
+in C:\wamp\www\fvfwebapp\protected\models\Post.php (5)
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (56)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/03 04:10:31 [error] [exception.CException] exception 'CException' with message 'La propiedad "Post"."title" no se encuentra definida.' in C:\wamp\www\fvfwebapp\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('title')
+#1 C:\wamp\www\fvfwebapp\protected\views\site\trabajos.php(7): CActiveRecord->__get('title')
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\fvf...')
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\fvf...', Array, true)
+#4 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\fvf...', Array, true)
+#5 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(782): CController->renderPartial('trabajos', Array, true)
+#6 C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php(58): CController->render('trabajos', Array)
+#7 C:\wamp\www\fvfwebapp\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionTrabajos()
+#8 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): CController->run('trabajos')
+#12 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/trabajos')
+#13 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/fvfwebapp/site/trabajos
+---
+2013/11/03 04:41:29 [error] [php] fopen(img01.jpg): failed to open stream: No such file or directory (C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php:131)
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): SiteController->runAction()
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#4 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\fvfwebapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/fvfwebapp/site/upimg
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (131)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/03 04:43:22 [error] [php] fopen(C:\wamp\www\fvfwebapp\protected/img01.jpg): failed to open stream: No such file or directory (C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php:131)
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): SiteController->runAction()
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#4 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\fvfwebapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/fvfwebapp/site/upimg
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (131)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/03 06:35:51 [error] [php] include(Imagen.php): failed to open stream: No such file or directory (C:\wamp\www\fvfwebapp\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php(59): spl_autoload_call()
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionTrabajos()
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): SiteController->runAction()
+#4 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#6 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\wamp\www\fvfwebapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/fvfwebapp/site/trabajos
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (59)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/03 06:36:57 [error] [php] include(Imagen.php): failed to open stream: No such file or directory (C:\wamp\www\fvfwebapp\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php(59): spl_autoload_call()
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionTrabajos()
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): SiteController->runAction()
+#4 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#6 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\wamp\www\fvfwebapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/fvfwebapp/site/trabajos
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (59)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/03 06:37:59 [error] [php] include(Imagen.php): failed to open stream: No such file or directory (C:\wamp\www\fvfwebapp\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php(59): spl_autoload_call()
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionTrabajos()
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): SiteController->runAction()
+#4 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#6 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\wamp\www\fvfwebapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/fvfwebapp/site/trabajos
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (59)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/03 06:38:23 [error] [php] include(Imagen.php): failed to open stream: No such file or directory (C:\wamp\www\fvfwebapp\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php(59): spl_autoload_call()
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionTrabajos()
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): SiteController->runAction()
+#4 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#6 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\wamp\www\fvfwebapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/fvfwebapp/site/trabajos
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (59)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/03 06:38:43 [error] [exception.CException] exception 'CException' with message 'La propiedad "Post"."image" no se encuentra definida.' in C:\wamp\www\fvfwebapp\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('image')
+#1 C:\wamp\www\fvfwebapp\protected\views\site\trabajos.php(9): CActiveRecord->__get('image')
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\fvf...')
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\fvf...', Array, true)
+#4 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\fvf...', Array, true)
+#5 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(782): CController->renderPartial('trabajos', Array, true)
+#6 C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php(67): CController->render('trabajos', Array)
+#7 C:\wamp\www\fvfwebapp\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionTrabajos()
+#8 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): CController->run('trabajos')
+#12 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/trabajos')
+#13 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/fvfwebapp/site/trabajos
+---
+2013/11/03 06:39:12 [error] [exception.CException] exception 'CException' with message 'La propiedad "Post"."imagenes" no se encuentra definida.' in C:\wamp\www\fvfwebapp\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('imagenes')
+#1 C:\wamp\www\fvfwebapp\protected\views\site\trabajos.php(9): CActiveRecord->__get('imagenes')
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\fvf...')
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\fvf...', Array, true)
+#4 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\fvf...', Array, true)
+#5 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(782): CController->renderPartial('trabajos', Array, true)
+#6 C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php(67): CController->render('trabajos', Array)
+#7 C:\wamp\www\fvfwebapp\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionTrabajos()
+#8 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): CController->run('trabajos')
+#12 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/trabajos')
+#13 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/fvfwebapp/site/trabajos
+---
+2013/11/03 06:40:06 [error] [exception.CException] exception 'CException' with message 'La propiedad "Post"."imagenes" no se encuentra definida.' in C:\wamp\www\fvfwebapp\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\db\ar\CActiveRecord.php(161): CComponent->__set('imagenes', Array)
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CModel.php(607): CActiveRecord->__set('imagenes', Array)
+#2 C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php(63): CModel->offsetSet('imagenes', Array)
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionTrabajos()
+#4 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): CController->run('trabajos')
+#8 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/trabajos')
+#9 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/fvfwebapp/site/trabajos
+---
+2013/11/03 06:42:21 [error] [php] Array to string conversion (C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php:57)
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\wamp\www\fvfwebapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/fvfwebapp/site/trabajos
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (57)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/03 06:42:56 [error] [exception.CException] exception 'CException' with message 'La propiedad "Post"."imagenes" no se encuentra definida.' in C:\wamp\www\fvfwebapp\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('imagenes')
+#1 C:\wamp\www\fvfwebapp\protected\views\site\trabajos.php(9): CActiveRecord->__get('imagenes')
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\fvf...')
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\fvf...', Array, true)
+#4 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\fvf...', Array, true)
+#5 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(782): CController->renderPartial('trabajos', Array, true)
+#6 C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php(70): CController->render('trabajos', Array)
+#7 C:\wamp\www\fvfwebapp\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionTrabajos()
+#8 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): CController->run('trabajos')
+#12 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/trabajos')
+#13 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/fvfwebapp/site/trabajos
+---
+2013/11/03 06:43:25 [error] [exception.CException] exception 'CException' with message 'La propiedad "Post"."imagenes" no se encuentra definida.' in C:\wamp\www\fvfwebapp\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('imagenes')
+#1 C:\wamp\www\fvfwebapp\protected\views\site\trabajos.php(9): CActiveRecord->__get('imagenes')
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\fvf...')
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\fvf...', Array, true)
+#4 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\fvf...', Array, true)
+#5 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(782): CController->renderPartial('trabajos', Array, true)
+#6 C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php(70): CController->render('trabajos', Array)
+#7 C:\wamp\www\fvfwebapp\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionTrabajos()
+#8 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): CController->run('trabajos')
+#12 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/trabajos')
+#13 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/fvfwebapp/site/trabajos
+---
+2013/11/03 06:43:50 [error] [php] Undefined variable: img (C:\wamp\www\fvfwebapp\protected\views\site\trabajos.php:11)
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php(70): SiteController->render()
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionTrabajos()
+#4 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\fvfwebapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/fvfwebapp/site/trabajos
+in C:\wamp\www\fvfwebapp\protected\views\site\trabajos.php (11)
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (70)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/03 06:51:53 [error] [php] Trying to get property of non-object (C:\wamp\www\fvfwebapp\protected\views\site\trabajos.php:7)
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php(76): SiteController->render()
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionTrabajos()
+#4 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\fvfwebapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/fvfwebapp/site/trabajos
+in C:\wamp\www\fvfwebapp\protected\views\site\trabajos.php (7)
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (76)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/03 06:52:38 [error] [php] Illegal string offset 'title' (C:\wamp\www\fvfwebapp\protected\views\site\trabajos.php:7)
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php(76): SiteController->render()
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionTrabajos()
+#4 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\fvfwebapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/fvfwebapp/site/trabajos
+in C:\wamp\www\fvfwebapp\protected\views\site\trabajos.php (7)
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (76)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/03 06:53:52 [error] [php] Trying to get property of non-object (C:\wamp\www\fvfwebapp\protected\views\site\trabajos.php:7)
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php(76): SiteController->render()
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionTrabajos()
+#4 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\fvfwebapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/fvfwebapp/site/trabajos
+in C:\wamp\www\fvfwebapp\protected\views\site\trabajos.php (7)
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (76)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/03 06:58:09 [error] [php] Trying to get property of non-object (C:\wamp\www\fvfwebapp\protected\views\site\trabajos.php:7)
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php(80): SiteController->render()
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionTrabajos()
+#4 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\fvfwebapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/fvfwebapp/site/trabajos
+in C:\wamp\www\fvfwebapp\protected\views\site\trabajos.php (7)
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (80)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/03 07:00:07 [error] [php] Undefined variable: item (C:\wamp\www\fvfwebapp\protected\views\site\trabajos.php:6)
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php(80): SiteController->render()
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionTrabajos()
+#4 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\fvfwebapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/fvfwebapp/site/trabajos
+in C:\wamp\www\fvfwebapp\protected\views\site\trabajos.php (6)
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (80)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/03 07:00:22 [error] [php] Trying to get property of non-object (C:\wamp\www\fvfwebapp\protected\views\site\trabajos.php:6)
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php(80): SiteController->render()
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionTrabajos()
+#4 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\fvfwebapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/fvfwebapp/site/trabajos
+in C:\wamp\www\fvfwebapp\protected\views\site\trabajos.php (6)
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (80)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/03 07:05:27 [error] [exception.CException] exception 'CException' with message 'La propiedad "Post"."imagenes" no se encuentra definida.' in C:\wamp\www\fvfwebapp\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\db\ar\CActiveRecord.php(161): CComponent->__set('imagenes', Array)
+#1 C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php(68): CActiveRecord->__set('imagenes', Array)
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionTrabajos()
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): CController->run('trabajos')
+#7 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/trabajos')
+#8 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/fvfwebapp/site/trabajos
+---
+2013/11/03 07:12:25 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '>id' at line 1. La sentencia SQL ejecutada fue: SELECT * FROM `Image` `t` WHERE id = $item->id.
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (62)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/03 07:12:25 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '>id' at line 1. The SQL statement executed was: SELECT * FROM `Image` `t` WHERE id = $item->id' in C:\wamp\www\fvfwebapp\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\fvfwebapp\yii\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryAll()
+#2 C:\wamp\www\fvfwebapp\yii\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php(62): CActiveRecord->findAll(Array)
+#4 C:\wamp\www\fvfwebapp\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionTrabajos()
+#5 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): CController->run('trabajos')
+#9 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/trabajos')
+#10 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/fvfwebapp/site/trabajos
+---
+2013/11/03 07:17:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "C:" solicitada.' in C:\wamp\www\fvfwebapp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(270): CController->missingAction('C:')
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): CController->run('C:')
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/C:/wamp/ww...')
+#3 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fvfwebapp/site/C:/wamp/www/fvfwebapp/protected/data/imgs/img01.jpg
+---
+2013/11/03 07:59:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "1378142_10201873389652094_1374871028_n.jpg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('1378142_1020187...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/1378142_10201873389652094_1374871028_n.jpg
+HTTP_REFERER=http://localhost/fvfwebapp/admin/imagenes
+---
+2013/11/03 07:59:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "img01.jpg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img01.jpg')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/img01.jpg
+HTTP_REFERER=http://localhost/fvfwebapp/admin/imagenes
+---
+2013/11/03 08:20:44 [error] [php] Undefined index: descripcion (C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php:98)
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): AdminController->runAction()
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): AdminController->run()
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\wamp\www\fvfwebapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/fvfwebapp/admin/subirImagen
+in C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php (98)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/03 08:21:21 [error] [php] Undefined index: name (C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php:98)
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): AdminController->runAction()
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): AdminController->run()
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\wamp\www\fvfwebapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/fvfwebapp/admin/subirImagen
+in C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php (98)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/03 08:22:03 [error] [php] move_uploaded_file(/fvfwebapp/apache.png): failed to open stream: No such file or directory (C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php:100)
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): AdminController->runAction()
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): AdminController->run()
+#4 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\fvfwebapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/fvfwebapp/admin/subirImagen
+in C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php (100)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/03 08:23:26 [error] [php] move_uploaded_file(C:\wamp\www\fvfwebapp\protected/images/apache.png): failed to open stream: No such file or directory (C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php:100)
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): AdminController->runAction()
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): AdminController->run()
+#4 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\fvfwebapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/fvfwebapp/admin/subirImagen
+in C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php (100)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/03 08:31:36 [error] [exception.CException] exception 'CException' with message 'La propiedad "Images"."route" no se encuentra definida.' in C:\wamp\www\fvfwebapp\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('route')
+#1 C:\wamp\www\fvfwebapp\protected\views\admin\imagenes.php(10): CActiveRecord->__get('route')
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\fvf...')
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\fvf...', Array, true)
+#4 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\fvf...', Array, true)
+#5 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(782): CController->renderPartial('imagenes', Array, true)
+#6 C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php(32): CController->render('imagenes', Array)
+#7 C:\wamp\www\fvfwebapp\yii\framework\web\actions\CInlineAction.php(49): AdminController->actionImagenes()
+#8 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): CController->run('imagenes')
+#12 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/imagenes')
+#13 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/fvfwebapp/admin/imagenes
+HTTP_REFERER=http://localhost/fvfwebapp/admin/trabajos
+---
+2013/11/03 08:36:21 [error] [php] date() expects at least 1 parameter, 0 given (C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php:31)
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): AdminController->runAction()
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): AdminController->run()
+#4 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\fvfwebapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/fvfwebapp/admin/imagenes
+in C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php (31)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/03 08:51:26 [error] [php] move_uploaded_file(): The second argument to copy() function cannot be a directory (C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php:96)
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): AdminController->runAction()
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): AdminController->run()
+#4 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\fvfwebapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/fvfwebapp/admin/subirImagen
+in C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php (96)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/03 09:15:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2013-11-03-09-15-54"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2013-11-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2013-11-03-09-15-54
+HTTP_REFERER=http://localhost/fvfwebapp/admin/imagenes
+---
+2013/11/03 09:17:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2013-11-03-09-15-54"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2013-11-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2013-11-03-09-15-54
+HTTP_REFERER=http://localhost/fvfwebapp/admin/imagenes
+---
+2013/11/03 20:01:34 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'fvf_db.{{users}}' doesn't exist. La sentencia SQL ejecutada fue: SHOW FULL COLUMNS FROM `{{users}}`.
+in C:\wamp\www\fvfwebapp\protected\components\UserIdentity.php (23)
+in C:\wamp\www\fvfwebapp\protected\models\LoginForm.php (54)
+in C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php (71)
+2013/11/03 20:01:34 [error] [exception.CDbException] exception 'CDbException' with message 'La tabla "{{users}}" definida en la clase active record "Users" no se ha podido encontrar en la base de datos.' in C:\wamp\www\fvfwebapp\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Users))
+#1 C:\wamp\www\fvfwebapp\yii\framework\db\ar\CActiveRecord.php(658): CActiveRecord->getMetaData()
+#2 C:\wamp\www\fvfwebapp\yii\framework\db\ar\CActiveRecord.php(1350): CActiveRecord->getTableSchema()
+#3 C:\wamp\www\fvfwebapp\yii\framework\db\ar\CActiveRecord.php(1456): CActiveRecord->query(Object(CDbCriteria))
+#4 C:\wamp\www\fvfwebapp\protected\components\UserIdentity.php(23): CActiveRecord->find('LOWER(username)...', Array)
+#5 C:\wamp\www\fvfwebapp\protected\models\LoginForm.php(54): UserIdentity->authenticate()
+#6 C:\wamp\www\fvfwebapp\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#7 C:\wamp\www\fvfwebapp\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#8 C:\wamp\www\fvfwebapp\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#9 C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php(71): CModel->validate()
+#10 C:\wamp\www\fvfwebapp\yii\framework\web\actions\CInlineAction.php(49): AdminController->actionLogin()
+#11 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#15 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#16 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/fvfwebapp/admin/login
+HTTP_REFERER=http://localhost/fvfwebapp/admin/login
+---
+2013/11/03 20:07:27 [error] [exception.CException] exception 'CException' with message 'La propiedad "Users"."id" no se encuentra definida.' in C:\wamp\www\fvfwebapp\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id')
+#1 C:\wamp\www\fvfwebapp\protected\components\UserIdentity.php(32): CActiveRecord->__get('id')
+#2 C:\wamp\www\fvfwebapp\protected\models\LoginForm.php(54): UserIdentity->authenticate()
+#3 C:\wamp\www\fvfwebapp\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#4 C:\wamp\www\fvfwebapp\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 C:\wamp\www\fvfwebapp\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#6 C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php(71): CModel->validate()
+#7 C:\wamp\www\fvfwebapp\yii\framework\web\actions\CInlineAction.php(49): AdminController->actionLogin()
+#8 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#12 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#13 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/fvfwebapp/admin/login
+HTTP_REFERER=http://localhost/fvfwebapp/admin/login
+---
+2013/11/03 20:15:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "index" solicitada.' in C:\wamp\www\fvfwebapp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#3 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fvfwebapp/admin
+---
+2013/11/03 20:23:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "index" solicitada.' in C:\wamp\www\fvfwebapp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(270): CController->missingAction('index')
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/index')
+#3 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fvfwebapp/admin/index
+HTTP_REFERER=http://localhost/fvfwebapp/admin/trabajos
+---
+2013/11/03 20:25:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "index" solicitada.' in C:\wamp\www\fvfwebapp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(270): CController->missingAction('index')
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/index')
+#3 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fvfwebapp/admin/index
+HTTP_REFERER=http://localhost/fvfwebapp/admin
+---
+2013/11/03 20:29:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "index" solicitada.' in C:\wamp\www\fvfwebapp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(270): CController->missingAction('index')
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/index')
+#3 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fvfwebapp/admin/index
+HTTP_REFERER=http://localhost/fvfwebapp/admin
+---
+2013/11/03 23:16:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "subirTrabajo" solicitada.' in C:\wamp\www\fvfwebapp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(270): CController->missingAction('subirTrabajo')
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): CController->run('subirTrabajo')
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/subirTrab...')
+#3 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fvfwebapp/admin/subirTrabajo
+HTTP_REFERER=http://localhost/fvfwebapp/admin/trabajos
+---
+2013/11/03 23:16:42 [error] [php] Undefined index: body (C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php:148)
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CInlineFilter.php(58): AdminController->filterAccessControl()
+#4 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#7 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): AdminController->run()
+#8 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\fvfwebapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/fvfwebapp/admin/subirTrabajo
+in C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php (148)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/03 23:17:10 [error] [php] Undefined index: body (C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php:148)
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CInlineFilter.php(58): AdminController->filterAccessControl()
+#4 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#7 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): AdminController->run()
+#8 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\fvfwebapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/fvfwebapp/admin/subirTrabajo
+in C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php (148)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/03 23:17:23 [error] [php] Undefined index: body (C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php:148)
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CInlineFilter.php(58): AdminController->filterAccessControl()
+#4 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#7 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): AdminController->run()
+#8 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\fvfwebapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/fvfwebapp/admin/subirTrabajo
+in C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php (148)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/03 23:21:33 [warning] [application] Error al establecer unsafe al atributo "title" de "Trabajos".
+in C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php (147)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/03 23:22:33 [warning] [application] Error al establecer unsafe al atributo "title" de "Trabajos".
+in C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php (147)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/03 23:24:08 [warning] [application] Error al establecer unsafe al atributo "title" de "Trabajos".
+in C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php (147)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/04 01:43:56 [error] [php] Trying to get property of non-object (C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php:178)
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CInlineFilter.php(58): AdminController->filterAccessControl()
+#4 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#7 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): AdminController->run()
+#8 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\fvfwebapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/fvfwebapp/admin/subirTrabajo
+in C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php (178)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/04 01:49:59 [error] [php] Trying to get property of non-object (C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php:178)
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CInlineFilter.php(58): AdminController->filterAccessControl()
+#4 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#7 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): AdminController->run()
+#8 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\fvfwebapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/fvfwebapp/admin/subirTrabajo
+in C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php (178)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/04 03:21:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "log" solicitada.' in C:\wamp\www\fvfwebapp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(270): CController->missingAction('log')
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): CController->run('log')
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/log')
+#3 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fvfwebapp/site/log
+---
+2013/11/04 03:24:27 [error] [system.db.CDbCommand] CDbCommand::fetch() falló: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pepe' in 'where clause'. La sentencia SQL ejecutada fue: SELECT * FROM `Users` `t` WHERE username=pepe LIMIT 1.
+in C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php (92)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/04 03:24:27 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pepe' in 'where clause'. The SQL statement executed was: SELECT * FROM `Users` `t` WHERE username=pepe LIMIT 1' in C:\wamp\www\fvfwebapp\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\wamp\www\fvfwebapp\yii\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryRow()
+#2 C:\wamp\www\fvfwebapp\yii\framework\db\ar\CActiveRecord.php(1456): CActiveRecord->query(Object(CDbCriteria))
+#3 C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php(92): CActiveRecord->find('username=pepe')
+#4 C:\wamp\www\fvfwebapp\yii\framework\web\actions\CInlineAction.php(49): AdminController->actionOpciones()
+#5 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): CController->run('opciones')
+#14 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/opciones')
+#15 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/fvfwebapp/admin/opciones
+HTTP_REFERER=http://localhost/fvfwebapp/admin/opciones
+---
+2013/11/04 03:27:04 [error] [php] Creating default object from empty value (C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php:93)
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CInlineFilter.php(58): AdminController->filterAccessControl()
+#4 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#7 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): AdminController->run()
+#8 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\fvfwebapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/fvfwebapp/admin/opciones
+in C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php (93)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/04 03:28:40 [error] [php] Creating default object from empty value (C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php:93)
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CInlineFilter.php(58): AdminController->filterAccessControl()
+#4 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#7 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): AdminController->run()
+#8 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\fvfwebapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/fvfwebapp/admin/opciones
+in C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php (93)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/07 16:34:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "contact" solicitada.' in C:\wamp\www\fvfwebapp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(270): CController->missingAction('contact')
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): CController->run('contact')
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/contact')
+#3 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fvfwebapp/site/contact
+---
+2013/11/07 16:50:50 [error] [php] Undefined variable: imagenes (C:\wamp\www\fvfwebapp\protected\views\site\index.php:10)
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php(31): SiteController->render()
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\fvfwebapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/fvfwebapp/site/index
+in C:\wamp\www\fvfwebapp\protected\views\site\index.php (10)
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (31)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/07 16:51:29 [error] [exception.CException] exception 'CException' with message 'La propiedad "Images"."route" no se encuentra definida.' in C:\wamp\www\fvfwebapp\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('route')
+#1 C:\wamp\www\fvfwebapp\protected\views\site\index.php(11): CActiveRecord->__get('route')
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\fvf...')
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\fvf...', Array, true)
+#4 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\fvf...', Array, true)
+#5 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#6 C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php(31): CController->render('index', Array)
+#7 C:\wamp\www\fvfwebapp\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#8 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#12 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#13 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/fvfwebapp/site/index
+HTTP_REFERER=http://localhost/fvfwebapp/site/index
+---
+2013/11/07 16:56:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "admin" solicitada.' in C:\wamp\www\fvfwebapp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin')
+#3 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fvfwebapp/site/admin
+---
+2013/11/07 17:20:30 [error] [php] include(Mensajes.php): failed to open stream: No such file or directory (C:\wamp\www\fvfwebapp\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php(89): spl_autoload_call()
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\actions\CInlineAction.php(49): AdminController->actionMensajes()
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#4 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CInlineFilter.php(58): AdminController->filterAccessControl()
+#7 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#10 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): AdminController->run()
+#11 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\wamp\www\fvfwebapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/fvfwebapp/admin/mensajes
+in C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php (89)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/07 17:33:56 [error] [php] date_format() expects parameter 1 to be DateTime, string given (C:\wamp\www\fvfwebapp\protected\views\site\trabajos.php:7)
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#3 C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php(61): SiteController->render()
+#4 C:\wamp\www\fvfwebapp\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionTrabajos()
+#5 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): SiteController->runAction()
+#7 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\wamp\www\fvfwebapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/fvfwebapp/site/trabajos
+in C:\wamp\www\fvfwebapp\protected\views\site\trabajos.php (7)
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (61)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/07 18:07:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "admin" solicitada.' in C:\wamp\www\fvfwebapp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin')
+#3 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fvfwebapp/site/admin
+---
+2013/11/07 22:21:09 [error] [php] include(date.php): failed to open stream: No such file or directory (C:\wamp\www\fvfwebapp\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php(181): spl_autoload_call()
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\actions\CInlineAction.php(49): AdminController->actionSubirTrabajo()
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#4 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CInlineFilter.php(58): AdminController->filterAccessControl()
+#7 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#10 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): AdminController->run()
+#11 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\wamp\www\fvfwebapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/fvfwebapp/admin/subirTrabajo
+in C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php (181)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/07 22:21:50 [error] [php] Undefined index: gp-imgs (C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php:184)
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CInlineFilter.php(58): AdminController->filterAccessControl()
+#4 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#7 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): AdminController->run()
+#8 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\fvfwebapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/fvfwebapp/admin/subirTrabajo
+in C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php (184)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/07 22:24:14 [error] [php] Undefined index: gp-imgs (C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php:185)
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CInlineFilter.php(58): AdminController->filterAccessControl()
+#4 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#7 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): AdminController->run()
+#8 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\fvfwebapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/fvfwebapp/admin/subirTrabajo
+in C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php (185)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/09 23:57:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes
+---
+2013/11/10 00:00:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes
+---
+2013/11/10 00:01:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes
+---
+2013/11/10 00:01:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes/
+---
+2013/11/10 00:01:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes/
+---
+2013/11/10 00:01:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes/
+---
+2013/11/10 00:01:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes/
+---
+2013/11/10 00:01:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes/
+---
+2013/11/10 00:01:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes/
+---
+2013/11/10 00:01:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes/
+---
+2013/11/10 00:01:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes/
+---
+2013/11/10 00:02:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes/
+---
+2013/11/10 00:02:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes
+---
+2013/11/10 00:02:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes/
+---
+2013/11/10 00:02:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes/
+---
+2013/11/10 00:03:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes
+---
+2013/11/10 00:03:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes/
+---
+2013/11/10 00:10:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes
+---
+2013/11/10 00:14:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes
+---
+2013/11/10 00:15:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes
+---
+2013/11/10 00:15:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes
+---
+2013/11/10 00:16:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes
+---
+2013/11/10 00:17:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes
+---
+2013/11/10 00:17:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes/
+---
+2013/11/10 00:17:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes/
+---
+2013/11/10 00:17:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes/
+---
+2013/11/10 00:17:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes/
+---
+2013/11/10 00:17:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes/
+---
+2013/11/10 00:17:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes/
+---
+2013/11/10 00:17:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes/
+---
+2013/11/10 00:17:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes
+---
+2013/11/10 00:18:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes/
+---
+2013/11/10 00:18:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes/
+---
+2013/11/10 00:20:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes
+---
+2013/11/10 00:23:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes
+---
+2013/11/10 00:23:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes/
+---
+2013/11/10 00:23:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes/
+---
+2013/11/10 00:23:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes/
+---
+2013/11/10 00:23:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes
+---
+2013/11/10 00:23:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes/
+---
+2013/11/10 00:36:28 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':=tile AND name:=name ORDER BY date DESC' at line 1. La sentencia SQL ejecutada fue: SELECT * FROM `Mensajes` `t` WHERE title:=tile AND name:=name ORDER BY date DESC.
+in C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php (127)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/10 00:36:28 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':=tile AND name:=name ORDER BY date DESC' at line 1. The SQL statement executed was: SELECT * FROM `Mensajes` `t` WHERE title:=tile AND name:=name ORDER BY date DESC' in C:\wamp\www\fvfwebapp\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\fvfwebapp\yii\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryAll()
+#2 C:\wamp\www\fvfwebapp\yii\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php(127): CActiveRecord->findAll(Object(CDbCriteria))
+#4 [internal function]: AdminController->actionMensajes(NULL)
+#5 C:\wamp\www\fvfwebapp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(AdminController), Array)
+#6 C:\wamp\www\fvfwebapp\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(AdminController), Object(ReflectionMethod), Array)
+#7 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): CController->run('mensajes')
+#16 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/mensajes')
+#17 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/fvfwebapp/admin/mensajes
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes/
+---
+2013/11/10 00:36:56 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':=title AND name:=name ORDER BY date DESC' at line 1. La sentencia SQL ejecutada fue: SELECT * FROM `Mensajes` `t` WHERE title:=title AND name:=name ORDER BY date DESC.
+in C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php (127)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/10 00:36:56 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':=title AND name:=name ORDER BY date DESC' at line 1. The SQL statement executed was: SELECT * FROM `Mensajes` `t` WHERE title:=title AND name:=name ORDER BY date DESC' in C:\wamp\www\fvfwebapp\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\fvfwebapp\yii\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryAll()
+#2 C:\wamp\www\fvfwebapp\yii\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php(127): CActiveRecord->findAll(Object(CDbCriteria))
+#4 [internal function]: AdminController->actionMensajes(NULL)
+#5 C:\wamp\www\fvfwebapp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(AdminController), Array)
+#6 C:\wamp\www\fvfwebapp\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(AdminController), Object(ReflectionMethod), Array)
+#7 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): CController->run('mensajes')
+#16 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/mensajes')
+#17 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/fvfwebapp/admin/mensajes
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes/
+---
+2013/11/11 15:35:35 [error] [php] Undefined variable: form (C:\wamp\www\fvfwebapp\protected\views\site\index.php:54)
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php(48): SiteController->render()
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\fvfwebapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/fvfwebapp/site/index
+in C:\wamp\www\fvfwebapp\protected\views\site\index.php (54)
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (48)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/11 15:43:05 [error] [php] Undefined variable: trabajo (C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php:94)
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\wamp\www\fvfwebapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/fvfwebapp/site/contacto
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (94)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/11 16:01:44 [warning] [application] Error al establecer unsafe al atributo "name" de "Mensajes".
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (89)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/11 16:01:44 [warning] [application] Error al establecer unsafe al atributo "email" de "Mensajes".
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (89)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/11 16:01:44 [warning] [application] Error al establecer unsafe al atributo "title" de "Mensajes".
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (89)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/11 16:01:44 [warning] [application] Error al establecer unsafe al atributo "body" de "Mensajes".
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (89)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/11 16:04:17 [error] [php] Array to string conversion (C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php:89)
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\wamp\www\fvfwebapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/fvfwebapp/site/contacto
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (89)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/11 16:04:48 [error] [php] Array to string conversion (C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php:89)
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\wamp\www\fvfwebapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/fvfwebapp/site/contacto
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (89)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/11 16:05:19 [warning] [application] Error al establecer unsafe al atributo "name" de "Mensajes".
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (91)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/11 16:05:19 [warning] [application] Error al establecer unsafe al atributo "email" de "Mensajes".
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (91)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/11 16:05:19 [warning] [application] Error al establecer unsafe al atributo "title" de "Mensajes".
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (91)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/11 16:05:19 [warning] [application] Error al establecer unsafe al atributo "body" de "Mensajes".
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (91)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/11 16:06:20 [warning] [application] Error al establecer unsafe al atributo "name" de "Mensajes".
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (91)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/11 16:06:20 [warning] [application] Error al establecer unsafe al atributo "email" de "Mensajes".
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (91)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/11 16:06:20 [warning] [application] Error al establecer unsafe al atributo "title" de "Mensajes".
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (91)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/11 16:06:20 [warning] [application] Error al establecer unsafe al atributo "body" de "Mensajes".
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (91)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/11 16:06:36 [warning] [application] Error al establecer unsafe al atributo "name" de "Mensajes".
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (92)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/11 16:06:36 [warning] [application] Error al establecer unsafe al atributo "email" de "Mensajes".
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (92)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/11 16:06:36 [warning] [application] Error al establecer unsafe al atributo "title" de "Mensajes".
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (92)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/11 16:06:36 [warning] [application] Error al establecer unsafe al atributo "body" de "Mensajes".
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (92)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/11 16:09:36 [warning] [application] Error al establecer unsafe al atributo "name" de "Mensajes".
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (92)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/11 16:09:36 [warning] [application] Error al establecer unsafe al atributo "email" de "Mensajes".
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (92)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/11 16:09:36 [warning] [application] Error al establecer unsafe al atributo "title" de "Mensajes".
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (92)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/11 16:09:36 [warning] [application] Error al establecer unsafe al atributo "body" de "Mensajes".
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (92)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/11 16:09:49 [warning] [application] Error al establecer unsafe al atributo "name" de "Mensajes".
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (92)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/11 16:09:49 [warning] [application] Error al establecer unsafe al atributo "email" de "Mensajes".
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (92)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/11 16:09:49 [warning] [application] Error al establecer unsafe al atributo "title" de "Mensajes".
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (92)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/11 16:09:49 [warning] [application] Error al establecer unsafe al atributo "body" de "Mensajes".
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (92)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/11 16:10:09 [warning] [application] Error al establecer unsafe al atributo "0" de "Mensajes".
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (93)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/11 16:10:40 [warning] [application] Error al establecer unsafe al atributo "0" de "Mensajes".
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (93)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/11 16:11:33 [warning] [application] Error al establecer unsafe al atributo "0" de "Mensajes".
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (93)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/11 16:11:33 [error] [php] Trying to get property of non-object (C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php:94)
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\wamp\www\fvfwebapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/fvfwebapp/site/contacto
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (94)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/11 16:11:44 [warning] [application] Error al establecer unsafe al atributo "0" de "Mensajes".
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (93)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/11 16:19:28 [warning] [application] Error al establecer unsafe al atributo "0" de "Mensajes".
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (93)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/11 16:20:29 [warning] [application] Error al establecer unsafe al atributo "0" de "Mensajes".
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (92)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/11 16:20:59 [warning] [application] Error al establecer unsafe al atributo "0" de "Mensajes".
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (92)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/11 16:26:03 [warning] [application] Error al establecer unsafe al atributo "0" de "Mensajes".
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (92)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/11 16:29:57 [warning] [application] Error al establecer unsafe al atributo "0" de "Mensajes".
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (92)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/11 16:33:01 [warning] [application] Error al establecer unsafe al atributo "0" de "Mensajes".
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (92)
+in C:\wamp\www\fvfwebapp\index.php (13)
