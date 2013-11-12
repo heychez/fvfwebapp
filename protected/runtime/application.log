@@ -1614,3 +1614,21 @@ in C:\wamp\www\fvfwebapp\index.php (13)
 2013/11/11 16:33:01 [warning] [application] Error al establecer unsafe al atributo "0" de "Mensajes".
 in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (92)
 in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/12 02:18:16 [error] [exception.CException] exception 'CException' with message 'CHttpRequest no puede derminar la URI de la solicitud.' in C:\wamp\www\fvfwebapp\yii\framework\web\CHttpRequest.php:519
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CHttpRequest.php(431): CHttpRequest->getRequestUri()
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CUrlManager.php(364): CHttpRequest->getPathInfo()
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#3 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#5 {main}
+---
+2013/11/12 02:18:42 [error] [exception.CException] exception 'CException' with message 'CHttpRequest no puede derminar la URI de la solicitud.' in C:\wamp\www\fvfwebapp\yii\framework\web\CHttpRequest.php:519
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CHttpRequest.php(431): CHttpRequest->getRequestUri()
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CUrlManager.php(364): CHttpRequest->getPathInfo()
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#3 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#5 {main}
+---
