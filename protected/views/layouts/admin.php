@@ -45,7 +45,9 @@
 		)); ?><!-- breadcrumbs -->
 	<?php endif?>
 
-	<?php echo $content; ?>
+	<div id="content">
+		<?php echo $content; ?>
+	</div>
 
 	<div class="clear"></div>
 
