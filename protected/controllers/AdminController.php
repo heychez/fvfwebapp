@@ -36,12 +36,7 @@ class AdminController extends Controller
 			'captcha'=>array(
 				'class'=>'CCaptchaAction',
 				'backColor'=>0xFFFFFF,
-			),
-			// page action renders "static" pages stored under 'protected/views/site/pages'
-			// They can be accessed via: index.php?r=site/page&view=FileName
-			'page'=>array(
-				'class'=>'CViewAction',
-			),
+			)
 		);
 	}
 
@@ -96,10 +91,58 @@ class AdminController extends Controller
 		$this->render('trabajos', array('trabajos' => $trabajos, 'imagenes' => $imagenes));
 	}
 
+	public function actionCategorias(){
+		$id = "";
+		$name="";
+
+		if (isset($_POST['id'])) {
+			$id = $_POST['id'];
+		}
+		if (isset($_POST['name'])) {
+			$name = $_POST['name'];
+		}
+
+		$criteria = new CDbCriteria();
+		$criteria->compare('id',$id,true);
+		$criteria->compare('name',$name,true);
+
+		$categorias = Categorias::model()->findAll($criteria);
+
+		$this->render('categorias', array('categorias'=>$categorias));
+	}
+
+	public function actionCreateCategoria(){
+		if (isset($_POST['create'])) {
+			$categoria = new Categorias();
+			$categoria->attributes = $_POST['create'];
+
+			$categoria->insert();
+		}
+		$this->redirect(yii::app()->baseUrl.'/admin/categorias');
+	}
+
+	public function actionUpdateCategoria(){
+		if (isset($_POST['update'])) {
+			$id = $_POST['update']['id'];
+			$name = $_POST['update']['name'];
+			if ($name != null) {
+				Categorias::model()->updateByPk($id, array('name'=>$name));
+			}
+		}
+		$this->redirect(yii::app()->baseUrl.'/admin/categorias');
+	}
+
+	public function actionDeleteCategoria($id){
+		if ($id != null) {
+			Categorias::model()->deleteByPk($id);
+		}
+		$this->redirect(yii::app()->baseUrl.'/admin/categorias');
+	}
+
 	public function actionMensajes($id = null)
 	{
 		if ($id != null) {
-			$mensaje = Mensajes::model()->find($id);
+			$mensaje = Mensajes::model()->findByPk($id);
 			$this->render('view_mensaje', array('mensaje'=>$mensaje));
 		}else{
 			$title="";

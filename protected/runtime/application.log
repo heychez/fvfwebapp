@@ -1654,3 +1654,54 @@ Stack trace:
 REQUEST_URI=/fvfwebapp/site/index
 HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
 ---
+2013/11/13 17:30:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/categorias/2
+---
+2013/11/13 17:53:11 [error] [php] Array to string conversion (C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php:123)
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CInlineFilter.php(58): AdminController->filterAccessControl()
+#4 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#7 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): AdminController->run()
+#8 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\fvfwebapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/fvfwebapp/admin/createCategoria/
+in C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php (123)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/13 18:26:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/categorias
+---
+2013/11/13 18:30:35 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in C:\wamp\www\fvfwebapp\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): CController->run('deleteCategoria')
+#9 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/deleteCat...')
+#10 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/fvfwebapp/admin/deleteCategoria
+---
