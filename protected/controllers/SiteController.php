@@ -76,9 +76,11 @@ class SiteController extends Controller
 					'condition'=> 'trabajo_id='.$item->id
 				));
 			$item->imagenes = $imagenes;
-		}		
+		}
 
-		$this->render('trabajos', array('trabajos' => $trabajos));
+		array_slice($trabajos, 10);		
+
+		$this->render('trabajos', array('trabajosRecientes' => $trabajos));
 	}
 
 	/**

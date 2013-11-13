@@ -2,7 +2,7 @@
 
 <h1>Trabajos realizados</h1>
 
-<?php foreach ($trabajos as $item) { ?>
+<?php foreach ($trabajosRecientes as $item) { ?>
 	<p>
 		<b><?php echo $item->title; ?></b> <em><?php echo date_format(date_create($item->date),'d \d\e M Y - H:i') ?></em> <br>
 		<?php echo $item->body; ?><br>
