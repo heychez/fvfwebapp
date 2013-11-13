@@ -80,7 +80,7 @@ class SiteController extends Controller
 
 	/**
 	 * Displays the contact page
-	 */
+	 */	
 	public function actionContacto()
 	{
 		if (isset($_POST['contact-form'])){
