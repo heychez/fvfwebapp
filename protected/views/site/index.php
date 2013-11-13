@@ -43,7 +43,7 @@ $this->pageTitle=Yii::app()->name;
 
 <section id="contacto">
 	<h1>Contacto</h1>
-	<form name="contact-form" method="POST" action="<?php echo yii::app()->baseUrl.'/site/contacto' ?>">
+	<form method="POST" action="<?php echo yii::app()->baseUrl.'/site/contacto' ?>">
 		Nombre: <input name="contact-form[name]" type="text"><br>
 		Email: <input name="contact-form[email]" type="email"><br>
 		Asunto: <input name="contact-form[title]" type="text"><br>

@@ -1,13 +1,10 @@
 <?php 
 
-class Trabajos extends CActiveRecord
+class Categorias extends CActiveRecord
 {
-
-	public $imagenes;
-	public $categoria;
-
 	public static function model($className = __CLASS__)
 	{
 		return parent::model($className);
 	}
 }
+?>

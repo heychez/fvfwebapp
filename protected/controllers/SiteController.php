@@ -66,21 +66,31 @@ class SiteController extends Controller
 	}
 
 
-	public function actionTrabajos()
+	public function actionTrabajos($categoria = null)
 	{
-		$trabajos = Trabajos::model()->findAll(array('order'=>'date DESC'));
+		$view = "";
+		$trabajos = null;
 
-		foreach ($trabajos as $item) {
-			$imagenes = Images::model()->findAll(
-				array(
-					'condition'=> 'trabajo_id='.$item->id
-				));
-			$item->imagenes = $imagenes;
+		if ($categoria != null) {
+			$view = 'categoria_trabajos';
+			$trabajos = Trabajos::model()->findAll("categoria_id=".$categoria);
+			
+		}else{
+			$view = 'trabajos';
+			$trabajos = Trabajos::model()->findAll(array('order'=>'date DESC'));
+
+			foreach ($trabajos as $item) {
+				$imagenes = Images::model()->findAll(
+					array(
+						'condition'=> 'trabajo_id='.$item->id
+					));
+				$item->imagenes = $imagenes;
+			}
+
+			array_slice($trabajos, 10);
 		}
 
-		array_slice($trabajos, 10);		
-
-		$this->render('trabajos', array('trabajosRecientes' => $trabajos));
+		$this->render($view, array('trabajosRecientes' => $trabajos));
 	}
 
 	/**
