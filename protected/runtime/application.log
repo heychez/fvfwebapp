@@ -1903,3 +1903,129 @@ Stack trace:
 REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
 HTTP_REFERER=http://localhost/fvfwebapp/admin/categorias
 ---
+2013/11/13 23:28:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes/1
+---
+2013/11/13 23:28:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes/1
+---
+2013/11/13 23:29:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes/1
+---
+2013/11/13 23:31:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes/1
+---
+2013/11/13 23:31:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/trabajos
+---
+2013/11/13 23:31:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes
+---
+2013/11/13 23:31:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes/1
+---
+2013/11/13 23:32:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes/1
+---
+2013/11/13 23:34:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes/1
+---
+2013/11/13 23:36:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes/1
+---
+2013/11/13 23:36:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes/1
+---
+2013/11/13 23:37:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes/1
+---
+2013/11/13 23:42:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes/1
+---
+2013/11/13 23:44:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery-1.10.2.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes/1
+---

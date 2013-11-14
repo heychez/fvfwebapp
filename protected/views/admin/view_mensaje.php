@@ -1,10 +1,12 @@
 <?php  ?>
 <div class="span-18">
 	<div class="content">
-		<h2><?php echo $mensaje->title ?></h2>
-		<h4><?php echo $mensaje->name ?></h4>
-		<?php echo $mensaje->email ?> - <em><?php echo $mensaje->date ?></em><br>
-		<p><?php echo $mensaje->body ?></p>	
+		<div class="post">
+			<div class="title"><?php echo $mensaje->title ?></div>
+			<div class="author"><?php echo $mensaje->name ?> / <?php echo $mensaje->email ?></div>
+			<em><?php echo $mensaje->date ?></em><br>
+			<div class="nav"><?php echo $mensaje->body ?></div>
+		</div>
 	</div>
 </div>
 
@@ -14,7 +16,11 @@
 			<div class="portlet-decoration">
 				<div class="portlet-title">Opciones</div>
 			</div>
-			<div class="portlet-content">qwe</div>
+			<div class="portlet-content">
+				<ul>
+					<li><a href="<?php echo yii::app()->baseUrl.'/admin/deleteMensaje' ?>">Eliminar</a></li>
+				</ul>
+			</div>
 		</div>
 	</div>
 </div>
