@@ -20,6 +20,7 @@
 					<td><input name="date" type="radio" value="ASC">asc 
 						<input name="date" type="radio" value="DESC" checked>desc</td>
 					<input type="submit" style="display:none">
+					<td>Eliminar</td>
 				</form>
 			</tr>
 		<?php foreach ($mensajes as $key => $msg) {?>
@@ -27,6 +28,7 @@
 				<td><a href="<?php echo yii::app()->baseUrl.'/admin/mensajes/'.$msg->id ?>"><?php echo $msg->title ?></a></td>
 				<td><?php echo $msg->name ?></td>
 				<td><?php echo $msg->date ?></td>
+				<td><a href="<?php echo yii::app()->baseUrl.'/admin/deleteMensaje/'.$msg->id ?>">eliminar</a></td>
 			</tr>
 		<?php } ?>
 	</tbody>

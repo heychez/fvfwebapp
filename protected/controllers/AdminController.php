@@ -91,6 +91,14 @@ class AdminController extends Controller
 		$this->render('trabajos', array('trabajos' => $trabajos, 'imagenes' => $imagenes));
 	}
 
+	public function updateTrabajo(){
+
+	}
+
+	public function deleteTrabajo($id){
+
+	}
+
 	public function actionCategorias(){
 		$id = "";
 		$name="";
@@ -167,6 +175,13 @@ class AdminController extends Controller
 			$mensajes = Mensajes::model()->findAll($criteria);
 			$this->render('mensajes',array('mensajes'=>$mensajes));
 		}
+	}
+
+	public function actionDeleteMensaje($id){
+		if ($id != null) {
+			Mensajes::model()->deleteByPk($id);
+		}
+		$this->redirect(yii::app()->baseUrl.'/admin/mensajes');
 	}
 
 	public function actionOpciones()

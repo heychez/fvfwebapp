@@ -18,7 +18,7 @@
 			</div>
 			<div class="portlet-content">
 				<ul>
-					<li><a href="<?php echo yii::app()->baseUrl.'/admin/deleteMensaje' ?>">Eliminar</a></li>
+					<li><a href="<?php echo yii::app()->baseUrl.'/admin/deleteMensaje/'.$mensaje->id ?>">Eliminar</a></li>
 				</ul>
 			</div>
 		</div>
