@@ -14,11 +14,11 @@
 		<tbody>
 			<!-- Fila de querys -->
 			<tr>
-				<form id="msg-form" name="msg-form" method="POST" action="<?php echo yii::app()->baseUrl.'/admin/mensajes/' ?>">
-					<td><input onkeypress="enviar(event,this.form)" name="title" type="text" hold=""></td>
-					<td><input onkeypress="enviar(event,this.form)" name="name" type="text"></td>
+				<form id="msg-form" method="POST" action="<?php echo yii::app()->baseUrl.'/admin/mensajes/' ?>">
+					<td><input onkeypress="enviar(event,this.form)" name="title" type="text" placeholder="titulo"></td>
+					<td><input onkeypress="enviar(event,this.form)" name="name" type="text" placeholder="author"></td>
 					<td><input name="date" type="radio" value="ASC">asc 
-						<input name="date" type="radio" value="DESC" checked>desc</td>
+						<input name="date" type="radio" value="DESC">desc</td>
 					<input type="submit" style="display:none">
 					<td>Eliminar</td>
 				</form>
@@ -36,6 +36,8 @@
 </div>
 
 <script type="text/javascript">
+	$("input[value='<?php echo $dateChecked ?>']").attr('checked',true);
+
 	function enviar(e, form) {
 		tecla=(document.all) ? e.keyCode : e.which;
 		if(tecla==13) form.submit();

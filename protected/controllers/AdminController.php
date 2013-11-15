@@ -63,32 +63,92 @@ class AdminController extends Controller
 		$this->render('imagenes', array('imagenes' => $imagenes));
 	}
 
-	public function actionTrabajos()
-	{
-		$trabajos = Trabajos::model()->findAll(array('order'=>'date DESC'));
+	public function actionTrabajos($id = null){
+		if ($id != null) {
+			$trabajo = Trabajos::model()->findByPk($id);
 
-		foreach ($trabajos as $item) {
-			$imagenes = Images::model()->findAll(
+			$imagenes = Imagenes::model()->findAll(
 				array(
-					'condition'=> 'trabajo_id='.$item->id
+					'condition'=> 'trabajo_id='.$trabajo->id
 				));
-			$item->imagenes = $imagenes;
+			$trabajo->imagenes = $imagenes;
+
+			$this->render('view_trabajo', array('trabajo'=>$trabajo, 'imagenes'=>$imagenes));
+		}else{
+			$title="";
+			$date="DESC";
+
+			if (isset($_POST['title'])) {
+				$title = $_POST['title'];
+			}
+			if (isset($_POST['date'])) {
+				$date = $_POST['date'];
+			}
+
+			$criteria = new CDbCriteria();
+			$criteria->compare('title',$title,true);
+			$criteria->order = 'date '.$date;
+
+			$trabajos = Trabajos::model()->findAll($criteria);
+			$categorias = Categorias::model()->findAll();
+
+			$this->render('trabajos', array('trabajos' => $trabajos, 'categorias' => $categorias, 'dateChecked' => $date));
 		}
+	}
 
-		$imagenes = Images::model()->findAll(array('order'=>'filename'));
-		$first = true;
-		$filename  = "";
 
-		foreach ($imagenes as $key => $img) {
-			if ($first or strcmp($filename, $img->filename)!=0) {
-				$filename = $img->filename;
-				$first = false;
+	public function actionCreateTrabajo(){
+		if (isset($_POST['trabajo'])) {
+			$trabajo = new Trabajos();
+			$trabajo->attributes = $_POST['trabajo'];
+			echo $_POST['categoria'];
+			$trabajo->categoria_id = $_POST['categoria'];
+			$trabajo->date = date("Y-m-d H:i:s");
+
+			if ($trabajo->insert()) {
+				if (isset($_POST['name'])) {
+					$imgNames = $_POST['name'];
+
+					$imgFileNames = array();
+				    foreach( $_FILES['file'] as $key => $all ){
+				        foreach( $all as $i => $val ){
+				            $imgFileNames[$i][$key] = $val;    
+				        }    
+				    }
+
+					for ($i=0; $i < count($imgFileNames); $i++) { 
+						$type = $imgFileNames[$i]['type'];
+
+						if (strpos($type, 'image') === false) {
+							echo $type." formato de imagen no valido";
+							return;
+						}	
+
+						$type = stristr($type, '/');
+						$type[0] = '.';
+
+						$filename = date("Y-m-d-H-i-s")."-".$i.$type;
+
+						$pathTmp = $imgFileNames[$i]['tmp_name'];
+						$path = yii::app()->basePath.'\\..\\images\\'.$filename;
+
+						move_uploaded_file($pathTmp,$path);
+
+						$image = new Imagenes();
+						$image->name = $imgNames[$i];;
+						$image->filename = $filename;
+						$image->type = $imgFileNames[$i]['type'];
+						$image->trabajo_id = $trabajo->id;
+						$image->date = date("Y-m-d H:i:s");
+
+						$image->insert();
+					}
+				}
 			}else{
-				unset($imagenes[$key]);
+				echo "No se pudo subir el trabajo";
 			}
 		}
-
-		$this->render('trabajos', array('trabajos' => $trabajos, 'imagenes' => $imagenes));
+		$this->redirect(yii::app()->baseUrl.'/admin/trabajos');
 	}
 
 	public function updateTrabajo(){
@@ -173,7 +233,7 @@ class AdminController extends Controller
 			$criteria->order = 'date '.$date;
 
 			$mensajes = Mensajes::model()->findAll($criteria);
-			$this->render('mensajes',array('mensajes'=>$mensajes));
+			$this->render('mensajes', array('mensajes'=>$mensajes, 'dateChecked'=>$date));
 		}
 	}
 
@@ -265,39 +325,6 @@ class AdminController extends Controller
 		}else{
 			echo "No se pudo subir la imagen";
 		}
-	}
-
-	public function actionSubirTrabajo()
-	{
-		$trabajo = new Trabajos();
-		$trabajo->title = $_POST['title'];
-		$trabajo->body = $_POST['body'];
-		$trabajo->date = date("Y-m-d H:i:s");
-
-		if ($trabajo->insert()) {
-			if (isset($_POST['gp-imgs'])) {
-				$imgIds = $_POST['gp-imgs'];
-
-				for ($i=0; $i < count($imgIds); $i++) {
-					$image = Images::model()->find("id=".$imgIds[$i]);
-
-					$img = new Images();
-					$img->name = $image->name;
-					$img->filename = $image->filename;
-					$img->type = $image->type;
-					$img->trabajo_id = $trabajo->id;
-
-					if (!$img->insert()) {
-						echo "No se pudo subir las imagenes";
-						return;
-					}
-				}
-				
-			}
-			$this->redirect(yii::app()->request->baseUrl.'/admin/trabajos');
-		}else{
-			echo "No se pudo subir el trabajo";
-		}	
 	}
 
 	private function nombreMes($mes)

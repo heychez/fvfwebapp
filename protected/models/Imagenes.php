@@ -1,6 +1,6 @@
 <?php 
 
-class Images extends CActiveRecord
+class Imagenes extends CActiveRecord
 {
 	public static function model($className = __CLASS__)
 	{

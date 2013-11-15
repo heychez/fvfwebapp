@@ -25,7 +25,7 @@ class SiteController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$imagenes = Images::model()->findAll(array(
+		$imagenes = Imagenes::model()->findAll(array(
 				'order'=>'filename DESC',
 				));
 
@@ -61,8 +61,7 @@ class SiteController extends Controller
 	}
 
 
-	public function actionTrabajos($categoria = null)
-	{
+	public function actionTrabajos($categoria = null){
 		$view = "";
 		$trabajos = null;
 
@@ -72,19 +71,19 @@ class SiteController extends Controller
 			
 		}else{
 			$view = 'trabajos';
-			$trabajos = Trabajos::model()->findAll(array('order'=>'date DESC'));
+			$trabajos = Trabajos::model()->findAll(array('order'=>'date DESC', 'limit'=>10));
 
-			foreach ($trabajos as $item) {
-				$imagenes = Images::model()->findAll(
+			foreach ($trabajos as $trabajo) {
+				$categoria = Categorias::model()->findByPk($trabajo->categoria_id);
+				$trabajo->categoria = $categoria->name;
+
+				$imagenes = Imagenes::model()->findAll(
 					array(
-						'condition'=> 'trabajo_id='.$item->id
+						'condition'=> 'trabajo_id='.$trabajo->id
 					));
-				$item->imagenes = $imagenes;
+				$trabajo->imagenes = $imagenes;
 			}
-
-			array_slice($trabajos, 10);
 		}
-
 		$this->render($view, array('trabajosRecientes' => $trabajos));
 	}
 
