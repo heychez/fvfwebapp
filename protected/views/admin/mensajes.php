@@ -27,7 +27,7 @@
 			<tr>
 				<td><a href="<?php echo yii::app()->baseUrl.'/admin/mensajes/'.$msg->id ?>"><?php echo $msg->title ?></a></td>
 				<td><?php echo $msg->name ?></td>
-				<td><?php echo $msg->date ?></td>
+				<td><?php echo date_format(date_create($msg->date),'d \d\e M Y - H:i') ?></td>
 				<td><a href="<?php echo yii::app()->baseUrl.'/admin/deleteMensaje/'.$msg->id ?>">eliminar</a></td>
 			</tr>
 		<?php } ?>

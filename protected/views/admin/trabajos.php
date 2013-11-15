@@ -26,7 +26,7 @@
 			<?php foreach ($trabajos as $key => $trabajo) {?>
 				<tr>
 					<td><a href="<?php echo yii::app()->baseUrl.'/admin/trabajos/'.$trabajo->id ?>"><?php echo $trabajo->title ?></a></td>
-					<td><?php echo $trabajo->date ?></td>
+					<td><?php echo date_format(date_create($trabajo->date),'d \d\e M Y - H:i') ?></td>
 					<td><a href="<?php echo yii::app()->baseUrl.'/admin/deleteTrabajo/'.$trabajo->id ?>">eliminar</a></td>
 				</tr>
 			<?php } ?>
@@ -41,25 +41,24 @@
 		<form method="POST" action="<?php echo yii::app()->request->baseUrl?>/admin/createTrabajo" enctype="multipart/form-data">
 			<p>
 				Titulo: <input type="text" name="trabajo[title]"/><br>
-				Descripcion: <br>
-				<textarea rows="15" cols="42" name="trabajo[body]"></textarea><br>
-				Seleccione las imagenes: <br>
-
-				<h4>Selecciona una categoria</h4>
+				Seleccione una categoria
 				<select name="categoria">
 					<?php foreach ($categorias as $key => $val) { ?>
 						<option value="<?php echo $val->id ?>"><?php echo $val->name ?></option>
 					<?php } ?>
-				</select>
+				</select><br>
+				Descripcion: <br>
+				<textarea rows="15" cols="42" name="trabajo[body]"></textarea><br>
 
-				<h4>Elija las imagenes</h4>
+				<b>Elija las imagenes</b>
 				<div id="subirImagenes">
 					<div class="formImagen">
 						Nombre:<input type="text" name="name[]" /><br>
 						<input type="file" name="file[]" /><br>
 					</div>
 				</div>
-				<a id="agregarImagen">Agregar otra imagen</a>
+				<br>
+				<a id="agregarImagen">Agregar otra imagen</a><br><br>
 
 				<input type="submit" name="aceptar" value="Aceptar" />
 			</p>

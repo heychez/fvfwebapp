@@ -3079,3 +3079,78 @@ Stack trace:
 #12 {main}
 REQUEST_URI=/fvfwebapp/site/trabajos
 ---
+2013/11/14 20:59:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "admin" solicitada.' in C:\wamp\www\fvfwebapp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin')
+#3 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fvfwebapp/site/admin
+---
+2013/11/14 20:59:15 [error] [php] include(Images.php): failed to open stream: No such file or directory (C:\wamp\www\fvfwebapp\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php(50): spl_autoload_call()
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\actions\CInlineAction.php(49): AdminController->actionImagenes()
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#4 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CInlineFilter.php(58): AdminController->filterAccessControl()
+#7 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#10 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): AdminController->run()
+#11 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\wamp\www\fvfwebapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/fvfwebapp/admin/imagenes
+in C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php (50)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/14 21:15:48 [error] [php] Undefined variable: trabajo (C:\wamp\www\fvfwebapp\protected\views\admin\mensajes.php:30)
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(869): AdminController->renderFile()
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(782): AdminController->renderPartial()
+#2 C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php(218): AdminController->render()
+#3 unknown(0): AdminController->actionMensajes()
+#4 C:\wamp\www\fvfwebapp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#5 C:\wamp\www\fvfwebapp\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#8 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#10 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CInlineFilter.php(58): AdminController->filterAccessControl()
+#11 C:\wamp\www\fvfwebapp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#12 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#14 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): AdminController->run()
+#15 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\wamp\www\fvfwebapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/fvfwebapp/admin/mensajes
+in C:\wamp\www\fvfwebapp\protected\views\admin\mensajes.php (30)
+in C:\wamp\www\fvfwebapp\protected\controllers\AdminController.php (218)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/11/14 22:59:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "deleteTrabajo" solicitada.' in C:\wamp\www\fvfwebapp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(270): CController->missingAction('deleteTrabajo')
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): CController->run('deleteTrabajo')
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/deleteTra...')
+#3 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fvfwebapp/admin/deleteTrabajo/16
+HTTP_REFERER=http://localhost/fvfwebapp/admin/trabajos
+---
+2013/11/14 23:00:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "deleteTrabajo" solicitada.' in C:\wamp\www\fvfwebapp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(270): CController->missingAction('deleteTrabajo')
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): CController->run('deleteTrabajo')
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/deleteTra...')
+#3 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fvfwebapp/admin/deleteTrabajo/16
+HTTP_REFERER=http://localhost/fvfwebapp/admin/trabajos
+---

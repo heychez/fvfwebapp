@@ -23,8 +23,7 @@ class SiteController extends Controller
 	 * This is the default 'index' action that is invoked
 	 * when an action is not explicitly requested by users.
 	 */
-	public function actionIndex()
-	{
+	public function actionIndex(){
 		$imagenes = Imagenes::model()->findAll(array(
 				'order'=>'filename DESC',
 				));
@@ -90,8 +89,7 @@ class SiteController extends Controller
 	/**
 	 * Displays the contact page
 	 */	
-	public function actionContacto()
-	{
+	public function actionContacto(){
 		if (isset($_POST['contact-form'])){
 			$mensaje = new Mensajes;
 

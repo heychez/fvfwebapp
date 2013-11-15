@@ -32,7 +32,6 @@
 			<?php $this->widget('zii.widgets.CMenu',array(
 				'items'=>array(
 					array('label'=>'Trabajos', 'url'=>array('/admin/trabajos')),
-					array('label'=>'Imagenes', 'url'=>array('/admin/imagenes')),
 					array('label'=>'Categorias', 'url'=>array('/admin/categorias')),
 					array('label'=>'Mensajes', 'url'=>array('/admin/mensajes')),
 					array('label'=>'Opciones', 'url'=>array('/admin/opciones')),

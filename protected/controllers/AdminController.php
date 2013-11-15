@@ -6,15 +6,13 @@ class AdminController extends Controller
 	public $layout = 'admin';
 	public $title = 'Administrador';
 
-	public function filters()
-	{
+	public function filters(){
 		return array(
 			'accessControl', // perform access control for CRUD operations
 		);
 	}
 
-	public function accessRules()
-	{
+	public function accessRules(){
 		return array(
 			array('allow',  // allow all users to access 'index' and 'view' actions.
 				'actions'=>array('login'),
@@ -29,8 +27,7 @@ class AdminController extends Controller
 		);
 	}
 	
-	public function actions()
-	{
+	public function actions(){
 		return array(
 			// captcha action renders the CAPTCHA image displayed on the contact page
 			'captcha'=>array(
@@ -44,24 +41,6 @@ class AdminController extends Controller
 	{
 		$this->render('index', array('title' => $this->title));
 	}*/
-
-	public function actionImagenes()
-	{
-		$imagenes = Images::model()->findAll(array('order'=>'filename DESC'));
-		$first = true;
-		$filename  = "";
-
-		foreach ($imagenes as $key => $img) {
-			if ($first or strcmp($filename, $img->filename)!=0) {
-				$filename = $img->filename;
-				$first = false;
-			}else{
-				unset($imagenes[$key]);
-			}
-		}
-
-		$this->render('imagenes', array('imagenes' => $imagenes));
-	}
 
 	public function actionTrabajos($id = null){
 		if ($id != null) {
@@ -151,12 +130,22 @@ class AdminController extends Controller
 		$this->redirect(yii::app()->baseUrl.'/admin/trabajos');
 	}
 
-	public function updateTrabajo(){
+	public function actionUpdateTrabajo(){
 
 	}
 
-	public function deleteTrabajo($id){
+	public function actionDeleteTrabajo($id){
+		if ($id != null) {
+			$imagenes = Imagenes::model()->findAll('trabajo_id='.$id);
 
+			foreach ($imagenes as $key => $img) {
+				unlink(yii::app()->basePath.'\\..\\images\\'.$img->filename);
+			}
+			
+			Imagenes::model()->deleteAll('trabajo_id='.$id);
+			Trabajos::model()->deleteByPk($id);
+		}
+		$this->redirect(yii::app()->baseUrl.'/admin/trabajos');
 	}
 
 	public function actionCategorias(){
@@ -293,38 +282,6 @@ class AdminController extends Controller
 	{
 		Yii::app()->user->logout();
 		$this->redirect(Yii::app()->baseUrl.'/site');
-	}
-
-	public function actionSubirImagen()
-	{
-		$type = $_FILES['imagen']['type'];
-
-		if (strpos($type, 'image') === false) {
-			echo $type." formato de imagen no valido";
-			return;
-		}
-
-		$type = stristr($type, '/');
-		$type[0] = '.';
-
-		$filename = date("Y-m-d-H-i-s").$type;
-
-		$pathTmp = $_FILES['imagen']['tmp_name'];
-		$path = yii::app()->basePath.'\\..\\images\\'.$filename;
-
-		move_uploaded_file($pathTmp,$path);
-
-		$image = new Images();
-		$image->name = $_POST['name'];;
-		$image->filename = $filename;
-		$image->type = $_FILES['imagen']['type'];
-		$image->date = date("Y-m-d H:i:s");
-		
-		if ($image->insert()) {
-			$this->redirect(yii::app()->request->baseUrl.'/admin/imagenes');	
-		}else{
-			echo "No se pudo subir la imagen";
-		}
 	}
 
 	private function nombreMes($mes)

@@ -4,7 +4,7 @@
 	<div class="content">
 		<div class="post">
 			<div class="title"><?php echo $trabajo->title ?></div>
-			<div class="author"><?php echo $trabajo->date ?></div>
+			<div class="author"><?php echo date_format(date_create($trabajo->date),'d \d\e M Y - H:i') ?></div>
 			<div class="nav"><?php echo $trabajo->body ?></div>
 			<div class="images">
 				<?php foreach ($imagenes as $key => $img) { ?>
