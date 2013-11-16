@@ -1,10 +1,14 @@
-<?php /* @var $this Controller */ ?>
+<?php 
+	$categorias = Categorias::model()->findAll();
+ ?>
 
 <!DOCTYPE html>
 <html xml:lang="en" lang="es">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="language" content="es" />
+
+	<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery-1.10.2.min.js"></script>
 
 	<!-- blueprint CSS framework -->
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/screen.css" media="screen, projection" />
@@ -26,14 +30,21 @@
 		</div><!-- header -->
 
 		<div id="mainmenu">
-			<?php $this->widget('zii.widgets.CMenu',array(
-				'items'=>array(
-					array('label'=>'Inicio', 'url'=>array('/site/index')),
-					array('label'=>'Nosotros', 'url'=>array('#nosotros')),
-					array('label'=>'Trabajos', 'url'=>array('/site/trabajos')),
-					array('label'=>'Contacto', 'url'=>array('#contacto')),
-				),
-			)); ?>
+			<ul>
+				<li><a href="<?php echo yii::app()->homeUrl ?>">Inicio</a></li>
+				<li><a href="#nosotros">Nosotros</a></li>
+				<li>
+					<a href="<?php echo yii::app()->baseUrl.'/site/trabajos' ?>">Trabajos : </a>
+					<?php foreach ($categorias as $key => $val) { ?>
+					<span>
+						<a href="<?php echo yii::app()->baseUrl.'/site/trabajos/categoria_id/'.$val->id ?>">
+							<?php echo $val->name ?>
+						</a>
+					</span>	
+					<?php } ?>
+				</li>
+				<li><a href="#contacto">Contacto</a></li>
+			</ul>
 		</div><!-- mainmenu -->
 
 		<div class="container">
@@ -49,5 +60,14 @@
 		</div><!-- footer -->
 
 	</div><!-- page -->
+
+	<script type="text/javascript">
+
+
+		$("#mainmenu a").click(function (){
+			$("#mainmenu li").removeClass('active');
+			$(this).parent().addClass('active');
+		});
+	</script>
 </body>
 </html>

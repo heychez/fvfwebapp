@@ -80,6 +80,21 @@ body
 	text-decoration:none;
 }
 
+#mainmenu ul li span a
+{
+	color:grey;
+	background-color:transparent;
+	font-size:12px;
+	text-decoration:none;
+}
+
+#mainmenu ul li span a:hover, #mainmenu ul li span.active a
+{
+	color: grey;
+	background-color:#EFF4FA;
+	text-decoration:none;
+}
+
 div.flash-error, div.flash-notice, div.flash-success
 {
 	padding:.8em;

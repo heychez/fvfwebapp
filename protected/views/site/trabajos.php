@@ -7,7 +7,7 @@
 		<?php foreach ($trabajosRecientes as $trabajo) { ?>
 			<div class="post">
 				<div class="title"><?php echo $trabajo->title ?></div>
-				<div class="author"><?php echo $trabajo->categoria ?></div>
+				<div class="author">Categoria: <?php echo $trabajo->categoria ?></div>
 				<em><?php echo date_format(date_create($trabajo->date),'d \d\e M Y - H:i') ?></em><br>
 				<div class="nav"><?php echo $trabajo->body ?></div>
 				<div class="images">

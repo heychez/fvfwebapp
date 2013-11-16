@@ -52,7 +52,15 @@ class AdminController extends Controller
 				));
 			$trabajo->imagenes = $imagenes;
 
-			$this->render('view_trabajo', array('trabajo'=>$trabajo, 'imagenes'=>$imagenes));
+			$categorias = Categorias::model()->findAll();
+			$categoria = Categorias::model()->findByPk($trabajo->categoria_id);
+
+			$this->render('view_trabajo', array(
+				'trabajo'=>$trabajo, 
+				'imagenes'=>$imagenes, 
+				'categorias'=>$categorias,
+				'idCategoria'=>$categoria->id
+				));
 		}else{
 			$title="";
 			$date="DESC";
@@ -77,10 +85,9 @@ class AdminController extends Controller
 
 
 	public function actionCreateTrabajo(){
-		if (isset($_POST['trabajo'])) {
+		if (isset($_POST['trabajo']) and isset($_POST['categoria'])) {
 			$trabajo = new Trabajos();
 			$trabajo->attributes = $_POST['trabajo'];
-			echo $_POST['categoria'];
 			$trabajo->categoria_id = $_POST['categoria'];
 			$trabajo->date = date("Y-m-d H:i:s");
 
@@ -131,7 +138,66 @@ class AdminController extends Controller
 	}
 
 	public function actionUpdateTrabajo(){
+		if (isset($_POST['update'])) {
+			$trabajo = Trabajos::model()->findByPk($_POST['id']);
+			$trabajo->attributes = $_POST['update'];
+			$trabajo->categoria_id = $_POST['categoria'];
+			$trabajo->date = date("Y-m-d H:i:s");
 
+			if ($trabajo->update()) {
+				if (isset($_POST['name'])) {
+					$imgNames = $_POST['name'];
+
+					$imgFileNames = array();
+				    foreach( $_FILES['file'] as $key => $all ){
+				        foreach( $all as $i => $val ){
+				            $imgFileNames[$i][$key] = $val;    
+				        }    
+				    }
+
+					for ($i=0; $i < count($imgFileNames); $i++) { 
+						$type = $imgFileNames[$i]['type'];
+
+						if (strpos($type, 'image') === false) {
+							echo $type." formato de imagen no valido";
+							return;
+						}	
+
+						$type = stristr($type, '/');
+						$type[0] = '.';
+
+						$filename = date("Y-m-d-H-i-s")."-".$i.$type;
+
+						$pathTmp = $imgFileNames[$i]['tmp_name'];
+						$path = yii::app()->basePath.'\\..\\images\\'.$filename;
+
+						move_uploaded_file($pathTmp,$path);
+
+						$image = new Imagenes();
+						$image->name = $imgNames[$i];;
+						$image->filename = $filename;
+						$image->type = $imgFileNames[$i]['type'];
+						$image->trabajo_id = $trabajo->id;
+						$image->date = date("Y-m-d H:i:s");
+
+						$image->insert();
+					}
+				}
+				if (isset($_POST['idImgs'])) {
+					for ($i=0; $i < count($_POST['idImgs']); $i++) { 
+						$id = $_POST['idImgs'][$i];
+						$imagen = Imagenes::model()->findByPk($id);
+
+						Imagenes::model()->deleteByPk($id);
+
+						unlink(yii::app()->basePath.'\\..\\images\\'.$imagen->filename);
+					}
+				}
+			}else{
+				echo "No se pudo subir el trabajo";
+			}
+		}
+		$this->redirect(yii::app()->baseUrl.'/admin/trabajos');
 	}
 
 	public function actionDeleteTrabajo($id){

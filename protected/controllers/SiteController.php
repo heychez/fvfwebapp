@@ -60,30 +60,25 @@ class SiteController extends Controller
 	}
 
 
-	public function actionTrabajos($categoria = null){
-		$view = "";
-		$trabajos = null;
-
-		if ($categoria != null) {
-			$view = 'categoria_trabajos';
-			$trabajos = Trabajos::model()->findAll("categoria_id=".$categoria);
-			
+	public function actionTrabajos($categoria_id = null){
+		if ($categoria_id != null) {
+			$trabajos = Trabajos::model()->findAll("categoria_id=".$categoria_id);
 		}else{
-			$view = 'trabajos';
 			$trabajos = Trabajos::model()->findAll(array('order'=>'date DESC', 'limit'=>10));
-
-			foreach ($trabajos as $trabajo) {
-				$categoria = Categorias::model()->findByPk($trabajo->categoria_id);
-				$trabajo->categoria = $categoria->name;
-
-				$imagenes = Imagenes::model()->findAll(
-					array(
-						'condition'=> 'trabajo_id='.$trabajo->id
-					));
-				$trabajo->imagenes = $imagenes;
-			}
 		}
-		$this->render($view, array('trabajosRecientes' => $trabajos));
+
+		foreach ($trabajos as $trabajo) {
+			$categoria = Categorias::model()->findByPk($trabajo->categoria_id);
+			$trabajo->categoria = $categoria->name;
+
+			$imagenes = Imagenes::model()->findAll(
+				array(
+					'condition'=> 'trabajo_id='.$trabajo->id
+				));
+			$trabajo->imagenes = $imagenes;
+		}
+		
+		$this->render('trabajos', array('trabajosRecientes' => $trabajos));
 	}
 
 	/**
@@ -101,40 +96,4 @@ class SiteController extends Controller
 
 		$this->redirect(Yii::app()->homeUrl);
 	}
-
-	/**
-	 * Displays the login page
-	 */
-	public function actionLogin()
-	{
-		$model=new LoginForm;
-
-		// if it is ajax validation request
-		if(isset($_POST['ajax']) && $_POST['ajax']==='login-form')
-		{
-			echo CActiveForm::validate($model);
-			Yii::app()->end();
-		}
-
-		// collect user input data
-		if(isset($_POST['LoginForm']))
-		{
-			$model->attributes=$_POST['LoginForm'];
-			// validate user input and redirect to the previous page if valid
-			if($model->validate() && $model->login())
-				$this->redirect(Yii::app()->user->returnUrl);
-		}
-		// display the login form
-		$this->render('login',array('model'=>$model));
-	}
-
-	/**
-	 * Logs out the current user and redirect to homepage.
-	 */
-	public function actionLogout()
-	{
-		Yii::app()->user->logout();
-		$this->redirect(Yii::app()->homeUrl);
-	}
-
 }
