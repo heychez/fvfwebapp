@@ -3,6 +3,8 @@
 	if ($categorias == null) {
 		$categorias = array();
 	}
+
+
  ?>
 
 <!DOCTYPE html>
@@ -27,16 +29,15 @@
 </head>
 <body>
 	<div class="container" id="page">
-
 		<div id="header">
 			<div id="logo"><?php echo CHtml::encode(Yii::app()->name); ?></div>
 		</div><!-- header -->
 
 		<div id="mainmenu">
 			<ul>
-				<li><a href="<?php echo yii::app()->homeUrl ?>#">Inicio</a></li>
+				<li id="index"><a href="<?php echo yii::app()->homeUrl ?>#">Inicio</a></li>
 				<li><a href="<?php echo yii::app()->homeUrl ?>#nosotros">Nosotros</a></li>
-				<li>
+				<li id="trabajos">
 					<a href="<?php echo yii::app()->baseUrl.'/site/trabajos' ?>">Trabajos : </a>
 					<?php foreach ($categorias as $key => $val) { ?>
 					<span>
@@ -48,6 +49,17 @@
 				</li>
 				<li><a href="<?php echo yii::app()->homeUrl ?>#contacto">Contacto</a></li>
 			</ul>
+			<!--<?php $this->widget('zii.widgets.CMenu',array(
+				'items'=>array(
+					array('label'=>'Inicio', 'url'=>array('/site/index')),
+					array('label'=>'Nosotros', 'url'=>array('#nosotros')),
+					array('label'=>'Trabajos', 'url'=>array('/site/trabajos'), 'items' => array(
+						array('label'=>'Inicio1', 'url'=>array('/site/index')),
+						array('label'=>'Inicio2', 'url'=>array('/site/index'))
+						)),
+					array('label'=>'Contacto', 'url'=>array('#contacto'))
+				),
+			)); ?>-->
 		</div><!-- mainmenu -->
 
 		<div class="container">
@@ -65,7 +77,7 @@
 	</div><!-- page -->
 
 	<script type="text/javascript">
-
+		$("#<?php echo yii::app()->controller->getAction()->getId(); ?>").addClass('active');
 
 		$("#mainmenu a").click(function (){
 			$("#mainmenu li").removeClass('active');
