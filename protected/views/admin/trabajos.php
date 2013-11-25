@@ -26,7 +26,7 @@
 			<?php foreach ($trabajos as $key => $trabajo) {?>
 				<tr>
 					<td><a href="<?php echo yii::app()->baseUrl.'/admin/trabajos/'.$trabajo->id ?>"><?php echo $trabajo->title ?></a></td>
-					<td><?php echo date_format(date_create($trabajo->date),'d \d\e M Y - H:i') ?></td>
+					<td><?php echo date_format(date_create($trabajo->date),'d/m/y') ?></td>
 					<td><a href="<?php echo yii::app()->baseUrl.'/admin/deleteTrabajo/'.$trabajo->id ?>">eliminar</a></td>
 				</tr>
 			<?php } ?>

@@ -105,6 +105,10 @@ class AdminController extends Controller
 					for ($i=0; $i < count($imgFileNames); $i++) { 
 						$type = $imgFileNames[$i]['type'];
 
+						if (empty($type)) {
+							continue;
+						}
+
 						if (strpos($type, 'image') === false) {
 							echo $type." formato de imagen no valido";
 							return;
@@ -157,6 +161,10 @@ class AdminController extends Controller
 
 					for ($i=0; $i < count($imgFileNames); $i++) { 
 						$type = $imgFileNames[$i]['type'];
+
+						if (empty($type)) {
+							continue;
+						}
 
 						if (strpos($type, 'image') === false) {
 							echo $type." formato de imagen no valido";
@@ -257,6 +265,19 @@ class AdminController extends Controller
 
 	public function actionDeleteCategoria($id){
 		if ($id != null) {
+			$trabajos = Trabajos::model()->findAll('categoria_id='.$id);
+			
+			foreach ($trabajos as $trabajo) {
+				$imagenes = Imagenes::model()->findAll('trabajo_id='.$trabajo->id);
+
+				foreach ($imagenes as $key => $img) {
+					unlink(yii::app()->basePath.'\\..\\images\\'.$img->filename);
+				}
+				
+				Imagenes::model()->deleteAll('trabajo_id='.$trabajo->id);
+				Trabajos::model()->deleteByPk($trabajo->id);
+			}
+
 			Categorias::model()->deleteByPk($id);
 		}
 		$this->redirect(yii::app()->baseUrl.'/admin/categorias');

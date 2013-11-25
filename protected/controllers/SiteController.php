@@ -14,7 +14,7 @@ class SiteController extends Controller
 			// captcha action renders the CAPTCHA image displayed on the contact page
 			'captcha'=>array(
 				'class'=>'CCaptchaAction',
-				'backColor'=>0xFFFFFF,
+				'backColand'=>0xFFFFFF,
 			)
 		);
 	}
@@ -60,7 +60,11 @@ class SiteController extends Controller
 	}
 
 
-	public function actionTrabajos($categoria_id = null){
+	public function actionTrabajos($categoria_id = null){	
+		if ($categoria_id!=null and !$this->validInteger($categoria_id)) {
+			return;
+		}
+
 		if ($categoria_id != null) {
 			$trabajos = Trabajos::model()->findAll("categoria_id=".$categoria_id);
 		}else{
@@ -95,5 +99,25 @@ class SiteController extends Controller
 		}
 
 		$this->redirect(Yii::app()->homeUrl);
+	}
+
+	public function validString($str){
+		for ($i=0; $i < strlen($str); $i++) {
+			$ch = $str[$i];
+			if ( $ch=='\'' or $ch==' ' or $ch=='\"' or $ch=='=' or $ch==',' or $ch==';' or $ch==':' or $ch=='\n' or $ch=='\t' or $ch=='\s' or $ch=='\r') {
+				return false;
+			}
+		}
+		return true;
+	}
+
+	public function validInteger($str){
+		for ($i=0; $i < strlen($str); $i++) { 
+			$ch = $str[$i];
+			if ($ch!=0 and $ch!=1 and $ch!=2 and $ch!=3 and $ch!=4 and $ch!=5 and $ch!=6 and $ch!=7 and $ch!=8 and $ch!=9) {
+				return false;
+			}
+		}
+		return true;
 	}
 }

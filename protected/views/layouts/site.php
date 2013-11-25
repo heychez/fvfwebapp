@@ -1,5 +1,8 @@
 <?php 
 	$categorias = Categorias::model()->findAll();
+	if ($categorias == null) {
+		$categorias = array();
+	}
  ?>
 
 <!DOCTYPE html>
@@ -31,8 +34,8 @@
 
 		<div id="mainmenu">
 			<ul>
-				<li><a href="<?php echo yii::app()->homeUrl ?>">Inicio</a></li>
-				<li><a href="#nosotros">Nosotros</a></li>
+				<li><a href="<?php echo yii::app()->homeUrl ?>#">Inicio</a></li>
+				<li><a href="<?php echo yii::app()->homeUrl ?>#nosotros">Nosotros</a></li>
 				<li>
 					<a href="<?php echo yii::app()->baseUrl.'/site/trabajos' ?>">Trabajos : </a>
 					<?php foreach ($categorias as $key => $val) { ?>
@@ -43,7 +46,7 @@
 					</span>	
 					<?php } ?>
 				</li>
-				<li><a href="#contacto">Contacto</a></li>
+				<li><a href="<?php echo yii::app()->homeUrl ?>#contacto">Contacto</a></li>
 			</ul>
 		</div><!-- mainmenu -->
 

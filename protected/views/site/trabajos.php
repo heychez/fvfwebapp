@@ -11,7 +11,7 @@
 				<em><?php echo date_format(date_create($trabajo->date),'d \d\e M Y - H:i') ?></em><br>
 				<div class="nav"><?php echo $trabajo->body ?></div>
 				<div class="images">
-				<?php foreach ($trabajo->imagenes as $key => $img) { ?>
+				<?php foreach ($trabajo->imagenes as $img) { ?>
 					<img src="<?php echo yii::app()->baseUrl.'/images/'.$img['filename'] ?>" width="200px" height="150px"/>
 				<?php } ?>
 				</div>
