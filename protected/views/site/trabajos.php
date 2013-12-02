@@ -12,6 +12,7 @@
 				<div class="nav"><?php echo $trabajo->body ?></div>
 				<div class="images">
 				<?php foreach ($trabajo->imagenes as $img) { ?>
+					<?php echo $img['name'] ?>
 					<img src="<?php echo yii::app()->baseUrl.'/images/'.$img['filename'] ?>" width="200px" height="150px"/>
 				<?php } ?>
 				</div>
