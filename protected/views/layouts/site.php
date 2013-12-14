@@ -3,8 +3,6 @@
 	if ($categorias == null) {
 		$categorias = array();
 	}
-
-
  ?>
 
 <!DOCTYPE html>
