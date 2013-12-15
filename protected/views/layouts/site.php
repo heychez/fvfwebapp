@@ -1,86 +1,129 @@
-<?php 
-	$categorias = Categorias::model()->findAll();
-	if ($categorias == null) {
-		$categorias = array();
-	}
- ?>
-
 <!DOCTYPE html>
 <html xml:lang="en" lang="es">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="language" content="es" />
-
-	<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery-1.10.2.min.js"></script>
-
-	<!-- blueprint CSS framework -->
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/screen.css" media="screen, projection" />
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/print.css" media="print" />
-	<!--[if lt IE 8]>
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/ie.css" media="screen, projection" />
-	<![endif]-->
-
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" />
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="<?php echo Yii::app()->request->baseUrl; ?>/images/favicon.ico" rel="icon">
+        <link href='http://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Fenix' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/bootstrap-responsive.css">
+		<link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css">
+		<script src="http://code.jquery.com/jquery-2.0.3.js"></script>
+		<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/bootstrap.min.js"></script>
 
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
-<body>
-	<div class="container" id="page">
-		<div id="header">
-			<div id="logo"><?php echo CHtml::encode(Yii::app()->name); ?></div>
-		</div><!-- header -->
+<body style="background-image: url(<?php echo Yii::app()->request->baseUrl; ?>/images/bg2.png);">
+		<div class="container">
+			<div class="row-fluid">
+				<div class="span12">
+					<!--barra de menu-->
+        			<div class="navbar navbar-inverse navbar-fixed-top visible-desktop visible-tablet mainmenu" id='barra'>
+                        <div class="navbar-inner">
+                            <div class="container">
+                                <a href="#" class="brand" id="icono"><div class="rotateinfinite"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/LogoWeb.jpg" style="width:75px; height:35px"></div></a>
+                                <a href="#" class="brand" id="icono2"><strong>Obras y diseños</strong></a>
+                                <ul class="nav nav pull-right" id="barmenu">
+                                    <li><a href="<?php echo yii::app()->homeUrl ?>#"><b>Inicio</b></a></li>
+                                    <li class="divider-vertical"></li>
+                                    <li><a href="<?php echo yii::app()->homeUrl ?>#nos"><strong>Nosotros</strong></a></li>
+                                    <li class="divider-vertical"></li>
+                                    <li><a href="<?php echo yii::app()->homeUrl ?>#servicios"><strong>Servicios</strong></a></li>
+                                    <li class="divider-vertical"></li>
+                                    <li><a href="<?php echo yii::app()->baseUrl.'/site/trabajos' ?>"><strong>Nuestros trabajos
+                                    </strong></a></li>
+                                    <li class="divider-vertical"></li>
+                                    <li><a href="<?php echo yii::app()->homeUrl ?>#contact"><strong>Contáctanos</strong></a></li>
+                                </ul>
+                            </div>  
+                        </div>
+                    </div>
 
-		<div id="mainmenu">
-			<ul>
-				<li id="index"><a href="<?php echo yii::app()->homeUrl ?>#">Inicio</a></li>
-				<li><a href="<?php echo yii::app()->homeUrl ?>#nosotros">Nosotros</a></li>
-				<li id="trabajos">
-					<a href="<?php echo yii::app()->baseUrl.'/site/trabajos' ?>">Trabajos : </a>
-					<?php foreach ($categorias as $key => $val) { ?>
-					<span>
-						<a href="<?php echo yii::app()->baseUrl.'/site/trabajos/categoria_id/'.$val->id ?>">
-							<?php echo $val->name ?>
-						</a>
-					</span>	
-					<?php } ?>
-				</li>
-				<li><a href="<?php echo yii::app()->homeUrl ?>#contacto">Contacto</a></li>
-			</ul>
-			<!--<?php $this->widget('zii.widgets.CMenu',array(
-				'items'=>array(
-					array('label'=>'Inicio', 'url'=>array('/site/index')),
-					array('label'=>'Nosotros', 'url'=>array('#nosotros')),
-					array('label'=>'Trabajos', 'url'=>array('/site/trabajos'), 'items' => array(
-						array('label'=>'Inicio1', 'url'=>array('/site/index')),
-						array('label'=>'Inicio2', 'url'=>array('/site/index'))
-						)),
-					array('label'=>'Contacto', 'url'=>array('#contacto'))
-				),
-			)); ?>-->
-		</div><!-- mainmenu -->
+                    <!--barra de menu mobiles-->
+                    <div class="navbar  navbar-inverse navbar-fixed-top visible-phone mainmenu" id='barra'>
+                        <div class="navbar-inner">
+                            <div class="container">
+                                <ul class="nav nav pull-left">
+                                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-reorder"></i></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="<?php echo yii::app()->homeUrl ?>#">Inicio</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="<?php echo yii::app()->homeUrl ?>#nos">Nosotros</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="<?php echo yii::app()->homeUrl ?>#servicios">Servicios</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="<?php echo yii::app()->baseUrl.'/site/trabajos' ?>">Nuestros trabajos</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="<?php echo yii::app()->homeUrl ?>#contact">Contáctanos</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <p class="navbar-text text-center"><strong>FVF Obras Y Diseños</strong></p>
+                            </div>  
+                        </div>
+                    </div>
+				</div>
+			</div>
+		</div>
+				<!-- contenido -->
+				<?php echo $content; ?>
 
 		<div class="container">
-			<?php echo $content; ?>
+			<div class="row-fluid">
+				<div class="span12">
+					<!--FOOTER-->
+                    <footer>
+                        <div class="container visible-desktop visible-tablet" >
+                            <div class="row-fluid">
+                                <div class="span12">
+                                    <div class="span2" ></div>
+                                    <div class="span2" ></div>
+                                    <div class="span2" ></div>
+                                    <div class="span2" ></div>
+                                    <div class="span2" style="text-align:right"><strong>Siguenos en:</strong></div>
+                                    <div class="span2">
+                                        <a href="https://www.facebook.com/fvf.obras" style="text-align:left" target="_blank"><i class="icon-facebook-sign icon-4x"></i></a>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="footer">
+                                <strong>Copyright &copy; <?php echo date('Y'); ?> FvF obras y Diseños. All rights reserved.</strong>
+                            </div>
+                        </div>
+                    </footer>
+
+                    <!--FOOTER mobiles-->
+                    <footer>
+                        <div class="container visible-phone">
+                            <div class="row-fluid">
+                                <div class="span12">
+                                    <div class="span6"><strong>Siguenos en:</strong></div>
+                                    <div class="span6">
+                                        <a href="https://www.facebook.com/fvf.obras" style="text-align:left;margin-left:60px" target="_blank"><i class="icon-facebook-sign icon-4x"></i></a>
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="footer" style="margin-top:10px">
+                                <strong>&copy; FvF obras y Diseños. All rights reserved.</strong>
+                            </div>
+                        </div>
+                    </footer>
+				</div>
+	        </div>
 		</div>
 
-		<div class="clear"></div>
-
-		<div id="footer">
-			Copyright &copy; <?php echo date('Y'); ?> by My Company.<br/>
-			All Rights Reserved.<br/>
-			<?php echo Yii::powered(); ?>
-		</div><!-- footer -->
-
-	</div><!-- page -->
-
 	<script type="text/javascript">
-		$("#<?php echo yii::app()->controller->getAction()->getId(); ?>").addClass('active');
+		//$("#<?php echo yii::app()->controller->getAction()->getId(); ?>").addClass('active');
 
-		$("#mainmenu a").click(function (){
-			$("#mainmenu li").removeClass('active');
+		/*$("mainmenu dropdown-menu a").click(function (){
+			$("mainmenu dropdown-menu li").removeClass('active');
 			$(this).parent().addClass('active');
-		});
+		});*/
 	</script>
 </body>
 </html>

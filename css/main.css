@@ -8,11 +8,6 @@ footer
 {
     background-color: white;
 }
-body
-{
-    background-image: url(../img/bg2.png);
-   
-}
 
 #icono2
 {
@@ -26,13 +21,11 @@ body
 }
 #contenedor-nosotros
 {
-    background-image: url(../img/bg9.png);
     border-radius: 10px;
     box-shadow: 0px 0px 20px rgba(0,0,0,0.5);  
 }
 #contenedor-serv
 {
-    background-image: url(../img/bg8.png);
     border-radius: 10px;
     margin-top: 20px;
     text-align: left;
@@ -45,7 +38,6 @@ body
 }
 #textpr
 {
-    background-image: url(../img/footer.png);
     border-radius: 10px;
     margin-top: 20px;
     text-align: left;
@@ -55,15 +47,15 @@ label
 {
     font: bold; 
 }
+/*
 #contenedor-trabajo{
     background-image:  url("../img/bg2.png");
     margin:0px;
     margin-top: 20px;
-}
+}*/
 #trabajos
 {
     margin-top: 30px;
-    background-image: url("../img/bg3.png");
     border-radius: 10px;
     box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
     margin-bottom: 20px;

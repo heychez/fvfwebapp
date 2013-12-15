@@ -81,8 +81,10 @@ class SiteController extends Controller
 				));
 			$trabajo->imagenes = $imagenes;
 		}
-		
-		$this->render('trabajos', array('trabajosRecientes' => $trabajos));
+
+		$categorias = Categorias::model()->findAll();
+
+		$this->render('trabajos', array('trabajosRecientes' => $trabajos, 'categorias'=>$categorias));
 	}
 
 	/**
