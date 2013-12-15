@@ -69,8 +69,9 @@
 				</div>
 			</div>
 		</div>
-				<!-- contenido -->
-				<?php echo $content; ?>
+
+		<!-- contenido -->
+		<?php echo $content; ?>
 
 		<div class="container">
 			<div class="row-fluid">
@@ -117,13 +118,5 @@
 	        </div>
 		</div>
 
-	<script type="text/javascript">
-		//$("#<?php echo yii::app()->controller->getAction()->getId(); ?>").addClass('active');
-
-		/*$("mainmenu dropdown-menu a").click(function (){
-			$("mainmenu dropdown-menu li").removeClass('active');
-			$(this).parent().addClass('active');
-		});*/
-	</script>
 </body>
 </html>

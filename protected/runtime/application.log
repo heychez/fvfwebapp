@@ -4907,3 +4907,251 @@ REQUEST_URI=/fvfwebapp/site/trabajos
 in C:\wamp\www\fvfwebapp\protected\views\site\trabajos.php (58)
 in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (87)
 in C:\wamp\www\fvfwebapp\index.php (13)
+2013/12/15 12:38:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\wamp\www\fvfwebapp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/slider...')
+#3 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fvfwebapp/site/img/slider1.jpg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2013/12/15 12:39:04 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'img' in 'where clause'. La sentencia SQL ejecutada fue: SELECT * FROM `Trabajos` `t` WHERE categoria_id=img.
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (69)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/12/15 12:39:04 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'img' in 'where clause'. The SQL statement executed was: SELECT * FROM `Trabajos` `t` WHERE categoria_id=img' in C:\wamp\www\fvfwebapp\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\fvfwebapp\yii\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryAll()
+#2 C:\wamp\www\fvfwebapp\yii\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php(69): CActiveRecord->findAll('categoria_id=im...')
+#4 [internal function]: SiteController->actionTrabajos('img')
+#5 C:\wamp\www\fvfwebapp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#6 C:\wamp\www\fvfwebapp\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#7 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): CController->run('trabajos')
+#11 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/trabajos/c...')
+#12 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/fvfwebapp/site/trabajos/categoria_id/img/slider1.jpg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos/categoria_id/7
+---
+2013/12/15 12:39:05 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'img' in 'where clause'. La sentencia SQL ejecutada fue: SELECT * FROM `Trabajos` `t` WHERE categoria_id=img.
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (69)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/12/15 12:39:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'img' in 'where clause'. The SQL statement executed was: SELECT * FROM `Trabajos` `t` WHERE categoria_id=img' in C:\wamp\www\fvfwebapp\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\fvfwebapp\yii\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryAll()
+#2 C:\wamp\www\fvfwebapp\yii\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php(69): CActiveRecord->findAll('categoria_id=im...')
+#4 [internal function]: SiteController->actionTrabajos('img')
+#5 C:\wamp\www\fvfwebapp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#6 C:\wamp\www\fvfwebapp\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#7 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): CController->run('trabajos')
+#11 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/trabajos/c...')
+#12 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/fvfwebapp/site/trabajos/categoria_id/img/slider1.jpg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos/categoria_id/5
+---
+2013/12/15 12:39:10 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'img' in 'where clause'. La sentencia SQL ejecutada fue: SELECT * FROM `Trabajos` `t` WHERE categoria_id=img.
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (69)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/12/15 12:39:10 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'img' in 'where clause'. The SQL statement executed was: SELECT * FROM `Trabajos` `t` WHERE categoria_id=img' in C:\wamp\www\fvfwebapp\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\fvfwebapp\yii\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryAll()
+#2 C:\wamp\www\fvfwebapp\yii\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php(69): CActiveRecord->findAll('categoria_id=im...')
+#4 [internal function]: SiteController->actionTrabajos('img')
+#5 C:\wamp\www\fvfwebapp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#6 C:\wamp\www\fvfwebapp\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#7 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): CController->run('trabajos')
+#11 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/trabajos/c...')
+#12 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/fvfwebapp/site/trabajos/categoria_id/img/slider1.jpg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos/categoria_id/5
+---
+2013/12/15 12:39:11 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'img' in 'where clause'. La sentencia SQL ejecutada fue: SELECT * FROM `Trabajos` `t` WHERE categoria_id=img.
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (69)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/12/15 12:39:11 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'img' in 'where clause'. The SQL statement executed was: SELECT * FROM `Trabajos` `t` WHERE categoria_id=img' in C:\wamp\www\fvfwebapp\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\fvfwebapp\yii\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryAll()
+#2 C:\wamp\www\fvfwebapp\yii\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php(69): CActiveRecord->findAll('categoria_id=im...')
+#4 [internal function]: SiteController->actionTrabajos('img')
+#5 C:\wamp\www\fvfwebapp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#6 C:\wamp\www\fvfwebapp\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#7 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): CController->run('trabajos')
+#11 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/trabajos/c...')
+#12 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/fvfwebapp/site/trabajos/categoria_id/img/slider1.jpg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos/categoria_id/7
+---
+2013/12/15 13:22:29 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'img' in 'where clause'. La sentencia SQL ejecutada fue: SELECT * FROM `Trabajos` `t` WHERE categoria_id=img.
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (69)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/12/15 13:22:29 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'img' in 'where clause'. The SQL statement executed was: SELECT * FROM `Trabajos` `t` WHERE categoria_id=img' in C:\wamp\www\fvfwebapp\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\fvfwebapp\yii\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryAll()
+#2 C:\wamp\www\fvfwebapp\yii\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php(69): CActiveRecord->findAll('categoria_id=im...')
+#4 [internal function]: SiteController->actionTrabajos('img')
+#5 C:\wamp\www\fvfwebapp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#6 C:\wamp\www\fvfwebapp\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#7 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): CController->run('trabajos')
+#11 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/trabajos/c...')
+#12 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/fvfwebapp/site/trabajos/categoria_id/img/slider1.jpg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos/categoria_id/7
+---
+2013/12/15 13:22:30 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'img' in 'where clause'. La sentencia SQL ejecutada fue: SELECT * FROM `Trabajos` `t` WHERE categoria_id=img.
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (69)
+in C:\wamp\www\fvfwebapp\index.php (13)
+2013/12/15 13:22:30 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'img' in 'where clause'. The SQL statement executed was: SELECT * FROM `Trabajos` `t` WHERE categoria_id=img' in C:\wamp\www\fvfwebapp\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\fvfwebapp\yii\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryAll()
+#2 C:\wamp\www\fvfwebapp\yii\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php(69): CActiveRecord->findAll('categoria_id=im...')
+#4 [internal function]: SiteController->actionTrabajos('img')
+#5 C:\wamp\www\fvfwebapp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#6 C:\wamp\www\fvfwebapp\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#7 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): CController->run('trabajos')
+#11 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/trabajos/c...')
+#12 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/fvfwebapp/site/trabajos/categoria_id/img/slider1.jpg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos/categoria_id/5
+---
+2013/12/15 13:22:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\wamp\www\fvfwebapp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/slider...')
+#3 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fvfwebapp/site/img/slider1.jpg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2013/12/15 13:32:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\wamp\www\fvfwebapp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/slider...')
+#3 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fvfwebapp/site/img/slider1.jpg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2013/12/15 13:36:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\wamp\www\fvfwebapp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/slider...')
+#3 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fvfwebapp/site/img/slider1.jpg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2013/12/15 13:39:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\wamp\www\fvfwebapp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/slider...')
+#3 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fvfwebapp/site/img/slider1.jpg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2013/12/15 13:39:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\wamp\www\fvfwebapp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/slider...')
+#3 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fvfwebapp/site/img/slider1.jpg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2013/12/15 13:39:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\wamp\www\fvfwebapp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/slider...')
+#3 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fvfwebapp/site/img/slider1.jpg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2013/12/15 13:39:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\wamp\www\fvfwebapp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/slider...')
+#3 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fvfwebapp/site/img/slider1.jpg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2013/12/15 13:50:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\wamp\www\fvfwebapp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/slider...')
+#3 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fvfwebapp/site/img/slider1.jpg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2013/12/15 13:50:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "img" solicitada.' in C:\wamp\www\fvfwebapp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/slider...')
+#3 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fvfwebapp/site/img/slider1.jpg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
