@@ -16,6 +16,7 @@
                                     <div class="active item"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/slider1.jpg" alt="banner1" style="width: 1170px;height: 500px;"></div>
                                     <div class="item"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/slider2.png" alt="banner2" style="width: 940px;height: 500px;"></div>
                                     <div class="item"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/slider3.jpg" alt="banner3" style="width: 940px;height: 500px;"></div>
+                                    <div class="item"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/fvf_bannergrande.png" alt="banner4" style="width: 1170px;height: 500px;"></div>
                                 </div>
                                 <!--Carousel nav-->
                                 <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>

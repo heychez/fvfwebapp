@@ -25,8 +25,8 @@
         			<div class="navbar navbar-inverse navbar-fixed-top visible-desktop visible-tablet mainmenu" id='barra'>
                         <div class="navbar-inner">
                             <div class="container">
-                                <a href="#" class="brand" id="icono"><div class="rotateinfinite"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/logo_sinfondo.png" style="width:75px; height:35px"></div></a>
-                                <a href="#" class="brand" id="icono2"><strong>Obras y diseños</strong></a>
+                                <a href="<?php echo yii::app()->homeUrl ?>#" class="brand" id="icono"><div class="rotateinfinite"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/logo_sinfondo.png" style="width:75px; height:35px"></div></a>
+                                <a href="<?php echo yii::app()->homeUrl ?>#" class="brand" id="icono2"><strong>Obras y diseños</strong></a>
                                 <ul class="nav nav pull-right" id="barmenu">
                                     <li><a href="<?php echo yii::app()->homeUrl ?>#"><b>Inicio</b></a></li>
                                     <li class="divider-vertical"></li>
