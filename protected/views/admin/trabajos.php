@@ -39,7 +39,7 @@
 	<div class="content">
 		<h3>Subir Trabajo</h3>
 		<form method="POST" action="<?php echo yii::app()->request->baseUrl?>/admin/createTrabajo" enctype="multipart/form-data">
-			Titulo: <input type="text" name="trabajo[title]"/><br>
+			Titulo: <input type="text" name="trabajo[title]" required/><br>
 			Seleccione una categoria
 			<select name="categoria">
 				<?php foreach ($categorias as $key => $val) { ?>
@@ -47,13 +47,13 @@
 				<?php } ?>
 			</select><br>
 			Descripcion: <br>
-			<textarea rows="15" cols="42" name="trabajo[body]"></textarea><br>
+			<textarea rows="15" cols="42" name="trabajo[body]" required></textarea><br>
 
 			<b>Elija las imagenes</b>
 			<div id="subirImagenes">
 				<div class="formImagen">
 					Nombre:<input type="text" name="name[]" /><br>
-					<input type="file" name="file[]" /><br>
+					<input type="file" name="file[]" required/><br>
 				</div>
 			</div>
 			<br>
@@ -68,7 +68,7 @@
 	$("input[value='<?php echo $dateChecked ?>']").attr('checked',true);
 
 	$("#agregarImagen").click(function (){
-		$("#subirImagenes").append("<div class='formImagen'>Nombre:<input type='text' name='name[]' /><br><input type='file' name='file[]' /><br></div>");
+		$("#subirImagenes").append("<div class='formImagen'>Nombre:<input type='text' name='name[]' /><br><input type='file' name='file[]' required/><br></div>");
 	});
 
 	function enviar(e, form) {
