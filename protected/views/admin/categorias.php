@@ -4,8 +4,8 @@
 
 	<div>
 		<form method="POST" action="<?php echo yii::app()->baseUrl.'/admin/createCategoria/' ?>">
-			<b>Crear categoria</b>
-			<input name="create[name]" type="text" placeholder="ingrese un nombre">
+			<b>Crear categoria</b>  
+			<input name="create[name]" type="text" style="width:250px;" placeholder="ingrese un nombre">
 			<input type="submit" value="crear">
 		</form>
 		<br>
