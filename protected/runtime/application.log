@@ -5812,3 +5812,58 @@ Stack trace:
 REQUEST_URI=/fvfwebapp/
 HTTP_REFERER=http://localhost/
 ---
+2014/01/20 22:43:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/trabajos
+---
+2014/01/20 22:43:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/mensajes
+---
+2014/01/20 22:52:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/categorias
+---
+2014/01/20 22:52:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/admin/trabajos
+---
+2014/01/21 19:17:42 [error] [php] Undefined offset: 0 (C:\wamp\www\fvfwebapp\protected\views\site\trabajos.php:33)
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php(90): SiteController->render()
+#3 unknown(0): SiteController->actionTrabajos()
+#4 C:\wamp\www\fvfwebapp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#5 C:\wamp\www\fvfwebapp\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(286): SiteController->runAction()
+#8 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#9 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#10 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\wamp\www\fvfwebapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/fvfwebapp/site/trabajos
+in C:\wamp\www\fvfwebapp\protected\views\site\trabajos.php (33)
+in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (90)
+in C:\wamp\www\fvfwebapp\index.php (13)
