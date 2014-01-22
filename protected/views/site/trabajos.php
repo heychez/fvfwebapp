@@ -30,7 +30,7 @@
                     	<ul class="thumbnails">
                         <!-- Siempre Tomar de referencia los primeros 4 para el alineado-->
                     	<?php foreach ($trabajosRecientes as $trabajo) { ?>
-                        <?php $img = $trabajo->imagenes[0]; if ($img == null) continue; ?>
+                        <?php if (empty($trabajo->imagenes)) continue; $img = $trabajo->imagenes[0];  ?>
                     		<div class="span3">
                                 <li>
 		                          	<div class="thumbnail" >
