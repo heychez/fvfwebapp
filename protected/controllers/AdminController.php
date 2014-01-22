@@ -15,16 +15,22 @@ class AdminController extends Controller
 	public function accessRules(){
 		return array(
 			array('allow',  // allow all users to access 'index' and 'view' actions.
-				'actions'=>array('login'),
+				'actions'=>array('login','logout'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated users to access all actions
 				'users'=>array('@'),
+
 			),
 			array('deny',  // deny all users
 				'users'=>array('*'),
+				'deniedCallback'=>array($this,'deniedUsers'),
 			),
 		);
+	}
+
+	public function deniedUsers(){
+		$this->redirect(yii::app()->baseUrl.'/admin/login');
 	}
 	
 	public function actions(){
@@ -94,6 +100,11 @@ class AdminController extends Controller
 			if ($trabajo->insert()) {
 				if (isset($_POST['name'])) {
 					$imgNames = $_POST['name'];
+
+					if (!isset($_FILES['file'])) {
+						echo "Debe subir al menos una imagen";
+						return;
+					}
 
 					$imgFileNames = array();
 				    foreach( $_FILES['file'] as $key => $all ){
@@ -368,7 +379,7 @@ class AdminController extends Controller
 	public function actionLogout()
 	{
 		Yii::app()->user->logout();
-		$this->redirect(Yii::app()->baseUrl.'/site');
+		$this->redirect(Yii::app()->baseUrl.'/admin/login');
 	}
 
 	private function nombreMes($mes)
