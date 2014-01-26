@@ -47,28 +47,55 @@
 
         <!-- Modal -->
         <?php foreach ($trabajosRecientes as $trabajo) { ?>
-        <div id="<?php echo $trabajo->id ?>" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-header">
-                <h3 id="myModalLabel">FvF Obras</h3>
-            </div>
-            <div class="modal-body">
-                <div class="span12">
-                    <?php foreach ($trabajo->imagenes as $img) { ?>
-                        <?php echo $img['name'] ?>
-                        <img src="<?php echo yii::app()->baseUrl.'/images/'.$img['filename'] ?>" width="200px" height="150px"/>
-                    <?php } ?>
+        <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" id="<?php echo $trabajo->id ?>">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title"><?php echo $trabajo->categoria ?></h4>
+                    </div>
+                    <div class="modal-body">
+                        <div id="carousel-<?php echo $trabajo->id ?>" class="carousel slide">
+                            <ol class="carousel-indicators">
+                            <?php $i=0; ?>
+                            <?php foreach ($trabajo->imagenes as $img) { ?>
+                                <?php if ($i==0) $class = "active";
+                                    else $class=""; ?>
+                                    <li data-target="#carousel-<?php echo $trabajo->id ?>" data-slide-to="<?php echo $i ?>" class="<?php echo $class; ?>"></li>
+                            <?php $i++; } ?>
+                            </ol>
+
+                            <div class="carousel-inner">
+                            <?php $i=0; ?>
+                            <?php foreach ($trabajo->imagenes as $img) { ?>
+                                <?php if ($i==0) $class = "item active";
+                                    else $class="item"; ?>
+                                <div class="<?php echo $class; ?>">
+                                    <img src="<?php echo yii::app()->baseUrl.'/images/'.$img['filename'] ?>" alt="<?php echo $img['name'] ?>" />
+                                    <div class="carousel-caption">
+                                    </div>
+                                </div>
+                            <?php $i++; } ?>
+                            </div>
+
+                            <a class="carousel-control left" href="#carousel-<?php echo $trabajo->id ?>" data-slide="prev">
+                            <!--<span class="icon-prev"></span>--><
+                            </a>
+                            <a class="carousel-control right" href="#carousel-<?php echo $trabajo->id ?>" data-slide="next">
+                            <!--<span class="icon-next"></span>-->>
+                            </a>
+                        </div>
+                        <div>
+                            <h1><?php echo $trabajo->title ?></h1>
+                            <em><?php echo date_format(date_create($trabajo->date),'d \d\e M Y - H:i') ?></em><br>
+                            <p><?php echo $trabajo->body ?></p>
+                        </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
                 </div>
-                <div class="page-header">
-                    <h2><?php echo $trabajo->title ?></h2>
-                    <b><?php echo $trabajo->categoria ?></b>
-                    <em><?php echo date_format(date_create($trabajo->date),'d \d\e M Y - H:i') ?></em>
-                </div>
-                <p style="text-align: center"> 
-                    <?php echo $trabajo->body ?>
-                </p>
-            </div>
-            <div class="modal-footer">
-                <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
             </div>
         </div>
         <?php } ?>
