@@ -5867,3 +5867,139 @@ REQUEST_URI=/fvfwebapp/site/trabajos
 in C:\wamp\www\fvfwebapp\protected\views\site\trabajos.php (33)
 in C:\wamp\www\fvfwebapp\protected\controllers\SiteController.php (90)
 in C:\wamp\www\fvfwebapp\index.php (13)
+2014/01/24 21:25:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-21-23-08-12-0.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-21-23-08-12-0.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/01/24 21:25:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-21-23-08-12-0.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-21-23-08-12-0.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/01/24 21:25:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-21-23-08-12-1.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-21-23-08-12-1.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/01/24 21:25:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-21-23-08-12-1.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-21-23-08-12-1.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/01/24 21:26:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "admin" solicitada.' in C:\wamp\www\fvfwebapp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin')
+#3 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fvfwebapp/site/admin
+---
+2014/01/24 21:27:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-21-23-08-12-0.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-21-23-08-12-0.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/01/24 21:27:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-21-23-08-12-1.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-21-23-08-12-1.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/01/24 21:27:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-21-23-08-12-0.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-21-23-08-12-0.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos/categoria_id/7
+---
+2014/01/24 21:27:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-21-23-08-12-1.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-21-23-08-12-1.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos/categoria_id/7
+---
+2014/01/24 21:28:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-21-23-08-12-0.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-21-23-08-12-0.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos/categoria_id/7
+---
+2014/01/24 21:28:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-21-23-08-12-1.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-21-23-08-12-1.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos/categoria_id/7
+---
+2014/01/24 21:28:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-21-23-08-12-0.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-21-23-08-12-0.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos/categoria_id/7
+---
+2014/01/24 21:28:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-21-23-08-12-1.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-21-23-08-12-1.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos/categoria_id/7
+---
+2014/01/24 21:30:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-21-23-08-12-0.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-21-23-08-12-0.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/01/24 21:30:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-21-23-08-12-1.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-21-23-08-12-1.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
