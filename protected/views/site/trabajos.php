@@ -78,7 +78,7 @@
                         <div>
                             <h1><?php echo $trabajo->title ?></h1>
                             <em><?php echo date_format(date_create($trabajo->date),'d \d\e M Y - H:i') ?></em><br>
-                            <p><?php echo $trabajo->body ?></p>
+                            <p style="white-space:pre-wrap;"><?php echo $trabajo->body ?></p>
                         </div>
 
                     </div>
