@@ -10,7 +10,7 @@ if (yii::app()->controller->action->id == "index"){
     $url_inicio = yii::app()->homeUrl;
     $url_nosotros = yii::app()->homeUrl.'#nos';
     $url_servicios = yii::app()->homeUrl."#servicios";
-    $url_trabajos = "#";
+    $url_trabajos = yii::app()->baseUrl.'/site/trabajos';
     $url_contacto = yii::app()->homeUrl."#contact";
     $classNavbar = "";
 }?>
@@ -27,7 +27,7 @@ if (yii::app()->controller->action->id == "index"){
         <link href="<?php echo Yii::app()->request->baseUrl; ?>/images/favicon.ico" rel="icon">
         <link href='http://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Fenix' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/bootstrap.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/bootstrap3.min.css" media="screen">
 		<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/bootstrap-responsive.css">
 		<link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/font-awesome/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css">
