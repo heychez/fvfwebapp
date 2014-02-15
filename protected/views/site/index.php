@@ -1,11 +1,11 @@
-<div class="container">
+<div class="container" id='contenido'>
 	<div class="row-fluid">
 		<div class="span12">
 				<!--carousel Slide-->
-        		<div class="container" id="contenedor-carousel">
-                    <div class="row-fluid">
-                        <div class="span12">
-                            <div id="myCarousel" class="carousel slide">
+        		<div class="container" id='contenedor-carousel' class="visible desktop visible-tablet">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div id='myCarousel' class="carousel slide">
                                 <ol class="carousel-indicators">
                                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                                     <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -19,34 +19,38 @@
                                     <div class="item"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/fvf_bannergrande.png" alt="banner4" style="width: 1170px;height: 500px;"></div>
                                 </div>
                                 <!--Carousel nav-->
-                                <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-                                <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+                                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left " style="font-size: 30px"></span>
+                                </a>
+                                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right" style="font-size: 30px"></span>
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div id="nos">
+                <div id='nos'>
                     <br>
                     <br>
                 </div>
 
                 <!--Nosotros-->
                 <div class="container" id="contenedor-nosotros" style="background-image: url(<?php echo Yii::app()->request->baseUrl; ?>/images/bg9.png);">
-                    <div class="row-fluid">
-                        <div class="span12" style="padding:20px">
+                    <div class="row">
+                        <div class="col-md-12" style="padding:20px">
                             <div class="page-header">                                    
                                 <h2>Nosotros</h2>
                             </div>
-                            <div class="span5">
+                            <div class="col-md-5">
                                 <h3>Historia</h3>
-                                <p> Hola ipsum dolor sit amet, consectetur adipisicing elit. 
+                                <p> xdipsum dolor sit amet, consectetur adipisicing elit. 
                                     Cupiditate nam dolor soluta possimus eos velit excepturi quaerat      
                                     obcaecati et id! Reiciendis, doloribus minus dolorem temporibus 
                                     ratione assumenda doloremque omnis voluptate? 
                                 </p>
                             </div>
-                            <div class="span5">
+                            <div class="col-md-5">
                                 <h3>Mision</h3>
                                 <p>
                                     La empresa "FVF OBRAS Y DISEÑOS" con 20 años de experiencia en el rubro de carpinteria, ofrece los servicios de: fabricación en general, restauración y mantenimiento a residencias y a todo tipo empresas y constructoras; con acabados de primera a pedido de nuestros clientes, fabricamos puertas principales en todo los diseños, puertas contra-placadas para interiores, ventanas,mamparas ,   techos  de terraza sol y sombra  techado con policarbonato , muebles de baño ,  centro  de entretenimiento para la sala , dormitorios en general ,  comedores ,   muebles en general ,  pasos de madera , armarios , closet  en melanina, en MDF enchapado en cedro  , portones seccionales  , la empresa fvf le ofrece ,  seriedad ,  puntualidad ,  garantía y experiencia en nuestros trabajos.
@@ -61,27 +65,27 @@
                             </div>
                         </div>
                     </div>
-                    <label id="servicios"></label>
+                    <label id='servicios'></label>
                 </div>
                     
                 <!--Servicios-->
-                <div class="container" id ="contenedor-serv" style="background-image: url(<?php echo Yii::app()->request->baseUrl; ?>/images/bg8.png);">
-                    <div class="row-fluid">
-                        <div class="span12" style="padding:20px">
+                <div class="container" id ='contenedor-serv' style="background-image: url(<?php echo Yii::app()->request->baseUrl; ?>/images/bg8.png);">
+                    <div class="row">
+                        <div class="col-md-12" >
                             <div class="page-header">
-                                <h2 id="servicios">Servicios</h2>
+                                <h2 id='servicios'>Servicios</h2>
                             </div>
-                            <div class="span5">
+                            <div class="col-md-5">
                                 <h3>Mano de obra</h3>
                                 <p>
                                     FVF Obras y Diseños toma el reto de diseñar y fabricar sus mas 
                                     ambiciosos proyectos, ofreciendo trabajos en: Melamine,Drywall  
                                     y en todo tipo de madera; ofrece ademas acabados finos a sus 
                                     trabajos. <br>
-                                    <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/img1.jpg" class="img-circle">
+                                    <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/img1.jpg" class="img-circle img-reponsive">
                                 </p>
                             </div>
-                            <div class="span5">
+                            <div class="col-md-5">
                                 <h3>Mantenimiento</h3>
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, 
@@ -89,7 +93,7 @@
                                     libero voluptatum ea mollitia laborum esse in sed temporibus modi 
                                     repellendus commodi fuga?
                                     <br>
-                                    <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/img1.jpg" class="img-circle">
+                                    <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/img1.jpg" class="img-circle img-reponsive">
                                 </p>
                             </div>
                         </div>
@@ -98,14 +102,14 @@
                     
                 <!--Contactanos-->
                 <div class="container" id='textpr' style="background-image: url(<?php echo Yii::app()->request->baseUrl; ?>/images/footer.png);">
-                    <div class="row-fluid">
-                        <div class="span12" style="padding:20px">                                    
+                    <div class="row">
+                        <div class="col-md-12">                                    
                             <hgroup>
                                 <div class="page-header">
                                     <h2 id="contact">Contáctanos</h2>
                                 </div>
                             </hgroup>
-                            <div class="span5">
+                            <div class="col-md-5">
                                 <form method="POST" action="<?php echo yii::app()->baseUrl.'/site/contacto' ?>">
                                     	<label for='nombre'><strong>Nombre:</strong></label>
                                         <input name="contact-form[name]" type='text' id='nombre' placeholder='Escribe tu nombre' required style="margin-left:30px">
@@ -119,7 +123,7 @@
                                         <input type='submit' value='Enviar Mensaje' id='btnsubmit' style="margin-left:30px">
                                 </form>
                             </div>
-                            <div class="span6" id='mapa'>
+                            <div class="col-md-6" id='mapa'>
                                 <label id='ubicanos'>
                                     <strong>Ubicanos en:</strong>
                                     </label>
