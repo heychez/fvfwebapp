@@ -6598,3 +6598,2091 @@ Stack trace:
 REQUEST_URI=/fvfwebapp/js/jquery.min.map
 HTTP_REFERER=http://localhost/fvfwebapp/
 ---
+2014/04/06 12:58:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-24-21-30-03-0.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-24-21-30-03-0.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 12:58:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-21-23-08-12-0.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-21-23-08-12-0.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 12:58:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-21-23-08-12-1.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-21-23-08-12-1.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 13:07:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 13:11:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 13:11:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 18:59:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-21-23-08-12-1.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-21-23-08-12-1.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 18:59:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-24-21-30-03-0.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-24-21-30-03-0.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 18:59:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-21-23-08-12-0.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-21-23-08-12-0.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 19:13:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 19:14:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 19:14:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 19:16:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 19:20:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 19:21:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 19:21:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 19:33:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 19:35:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 19:35:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 19:36:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 19:37:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 19:45:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 19:48:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 19:49:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 19:49:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 19:51:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 19:51:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 19:58:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 20:03:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 20:04:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 20:04:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 20:07:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 20:18:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 20:19:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 20:21:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 20:21:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 20:25:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 20:25:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 20:34:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-24-21-30-03-0.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-24-21-30-03-0.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 20:34:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-21-23-08-12-0.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-21-23-08-12-0.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 20:34:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-21-23-08-12-1.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-21-23-08-12-1.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 20:34:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 20:34:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 20:34:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-24-21-30-03-0.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-24-21-30-03-0.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 20:34:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-21-23-08-12-0.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-21-23-08-12-0.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 20:34:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-21-23-08-12-1.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-21-23-08-12-1.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 20:34:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 20:34:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 20:48:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 20:49:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 20:51:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 20:51:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 20:51:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 20:53:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 20:54:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 20:55:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 20:55:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 20:55:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-24-21-30-03-0.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-24-21-30-03-0.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 20:55:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-21-23-08-12-0.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-21-23-08-12-0.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 20:55:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-21-23-08-12-1.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-21-23-08-12-1.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 20:55:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 20:55:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 20:57:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 21:01:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 21:01:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-24-21-30-03-0.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-24-21-30-03-0.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 21:01:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-21-23-08-12-1.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-21-23-08-12-1.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 21:01:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-21-23-08-12-0.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-21-23-08-12-0.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 21:01:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 21:02:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 21:02:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 21:02:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 21:02:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 21:03:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 21:07:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 21:14:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-21-23-08-12-0.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-21-23-08-12-0.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 21:14:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-24-21-30-03-0.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-24-21-30-03-0.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 21:14:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 21:14:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-21-23-08-12-1.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-21-23-08-12-1.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 21:14:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 21:14:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 21:25:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-24-21-30-03-0.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-24-21-30-03-0.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 21:25:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-21-23-08-12-0.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-21-23-08-12-0.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 21:25:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-21-23-08-12-1.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-21-23-08-12-1.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 21:25:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 21:25:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 21:37:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 21:38:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 21:45:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 21:54:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 21:58:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 22:00:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-24-21-30-03-0.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-24-21-30-03-0.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 22:00:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-21-23-08-12-1.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-21-23-08-12-1.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 22:00:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-21-23-08-12-0.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-21-23-08-12-0.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 22:00:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 22:00:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 22:02:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 22:03:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 22:03:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 22:03:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 22:05:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 22:10:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 22:16:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 22:36:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 22:37:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 22:39:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 22:39:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 22:40:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 22:45:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 22:45:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 22:52:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 22:52:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 22:53:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 22:54:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 22:56:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 22:56:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 22:58:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 22:59:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 23:05:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 23:06:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 23:08:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 23:08:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 23:11:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 23:11:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 23:14:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 23:14:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 23:14:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-24-21-30-03-0.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-24-21-30-03-0.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 23:14:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-21-23-08-12-0.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-21-23-08-12-0.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 23:14:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-21-23-08-12-1.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-21-23-08-12-1.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 23:17:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-24-21-30-03-0.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-24-21-30-03-0.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 23:17:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-21-23-08-12-0.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-21-23-08-12-0.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 23:17:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-21-23-08-12-1.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-21-23-08-12-1.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 23:17:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 23:17:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-24-21-30-03-0.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-24-21-30-03-0.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 23:17:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-21-23-08-12-0.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-21-23-08-12-0.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 23:17:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-21-23-08-12-1.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-21-23-08-12-1.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 23:17:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 23:17:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 23:17:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-21-23-08-12-0.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-21-23-08-12-0.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 23:17:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-24-21-30-03-0.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-24-21-30-03-0.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 23:17:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-21-23-08-12-1.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-21-23-08-12-1.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 23:18:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-24-21-30-03-0.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-24-21-30-03-0.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 23:18:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-21-23-08-12-0.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-21-23-08-12-0.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 23:18:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-21-23-08-12-1.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-21-23-08-12-1.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 23:18:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 23:31:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 23:31:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 23:31:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-24-21-30-03-0.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-24-21-30-03-0.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 23:31:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-21-23-08-12-0.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-21-23-08-12-0.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 23:31:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-21-23-08-12-1.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-21-23-08-12-1.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 23:31:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 23:31:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 23:32:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 23:36:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-24-21-30-03-0.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-24-21-30-03-0.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 23:36:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-21-23-08-12-0.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-21-23-08-12-0.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 23:36:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-21-23-08-12-1.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-21-23-08-12-1.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/06 23:36:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 23:38:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 23:38:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 23:38:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 23:39:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 23:40:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 23:41:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 23:41:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 23:42:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 23:42:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 23:42:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 23:42:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 23:44:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 23:46:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 23:46:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 23:47:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 23:52:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 23:53:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 23:56:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 23:56:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 23:58:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 23:58:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 23:59:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/06 23:59:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/07 00:00:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/07 00:02:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/07 00:03:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/07 00:07:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/07 00:08:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/07 00:10:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/07 00:13:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/07 00:17:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/07 00:19:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/07 00:20:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/07 00:55:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/07 00:56:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/07 00:58:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/07 01:06:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/07 01:09:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/07 01:11:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/07 01:12:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/07 01:12:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/07 01:13:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/07 01:14:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/07 01:15:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/07 01:15:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/07 01:16:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/07 01:16:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/07 01:22:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/07 01:23:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/07 01:24:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/07 01:24:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-21-23-08-12-1.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-21-23-08-12-1.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/07 01:24:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-21-23-08-12-0.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-21-23-08-12-0.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/07 01:24:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/2014-01-24-21-30-03-0.jpeg"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/2014-01-...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/images/2014-01-24-21-30-03-0.jpeg
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/07 01:24:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/site/trabajos
+---
+2014/04/07 01:24:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/07 01:28:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/07 01:28:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/07 01:30:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/07 01:31:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/07 01:31:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/07 01:31:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/07 01:33:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/07 01:34:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/07 01:36:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/07 01:38:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/07 01:39:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/07 01:40:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/07 01:45:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/07 01:47:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/07 01:48:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/07 01:55:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/07 02:00:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/07 02:04:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/07 02:05:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/07 02:06:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---
+2014/04/07 02:07:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "js/jquery.min.map"' in C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\fvfwebapp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.m...')
+#1 C:\wamp\www\fvfwebapp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\fvfwebapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fvfwebapp/js/jquery.min.map
+HTTP_REFERER=http://localhost/fvfwebapp/
+---

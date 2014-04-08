@@ -25,8 +25,7 @@ if (yii::app()->controller->action->id == "index"){
         <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.min.js"></script>
         <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/bootstrap.min.js"></script>
         <link href="<?php echo Yii::app()->request->baseUrl; ?>/images/favicon.ico" rel="icon">
-        <link href='http://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Fenix' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Bentham' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/bootstrap.css" media="screen">
 		<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/bootstrap-responsive.css">
 		<link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/font-awesome/css/font-awesome.min.css">
@@ -39,10 +38,10 @@ if (yii::app()->controller->action->id == "index"){
 			<div class="row">
 				<div class="col-md-12">
 					<!--barra de menu-->
-        			<div class="navbar navbar-inverse navbar-fixed-top visible-desktop visible-tablet" id='barra'>
+        			<div class="navbar navbar-colapse navbar-default navbar-fixed-top visible-desktop visible-tablet" id='barmenu'>
                         
                             <div class="container" id="options">
-                                <a href="<?php echo yii::app()->homeUrl ?>#" class="navbar-brand" id="icono"><div class="rotateinfinite"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/LOGO.png" style="width:191px; height:125px"></div></a>
+                                <a class="navbar-brand" data-speed="2000" data-easing="easeOutQuart" href="<?php echo $url_inicio ?>" id="icono" ><div class="rotateinfinite"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/LOGO.png" style="width:100px; height:100px"></div></a>
                                 <ul class="nav navbar-nav pull-right" id='barmenu'>
                                     <li><a class="<?php echo $classNavbar ?>" data-speed="2000" data-easing="easeOutQuart" href="<?php echo $url_inicio ?>"><b>Inicio</b></a></li>
                                     <li class="divider"></li>
@@ -55,29 +54,47 @@ if (yii::app()->controller->action->id == "index"){
                                     <li role="presentation" class="divider"></li>
                                     <li><a class="<?php echo $classNavbar ?>" data-speed="2000" data-easing="easeOutQuart" href="<?php echo $url_contacto ?>"><strong>Contáctanos</strong></a></li>
                                 </ul>
-                              
+                            </div>
+                    </div>
+
+
+                    <!--barra de menu mobiles-->
+
+                    <div class="navbar-wrapper visible-phone">
+                        <div class="container">
+                            <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+                                <div class="container">
+                                    <div class="navbar-header">
+                                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                                            <span class="sr-only">Toggle navigation</span>    
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                        </button>
+                                        <a href="" class="navbar-brand">FvF Obras y diseños</a>
+                                    </div>
+                                    <div class="navbar-collapse collapse style="height: 1px;"">
+                                        <ul class="nav navbar-nav">
+                                             <li><a class="<?php echo $classNavbar ?>" data-speed="2000" data-easing="easeOutQuart" href="<?php echo $url_inicio ?>"><b>Inicio</b></a></li>
+                                            <li class="divider"></li>
+                                            <li><a class="<?php echo $classNavbar ?>" data-speed="2000" data-easing="easeOutQuart" href="<?php echo $url_nosotros ?>"><strong>Nosotros</strong></a></li>
+                                            <li class="divider"></li>
+                                            <li><a class="<?php echo $classNavbar ?>" data-speed="2000" data-easing="easeOutQuart" href="<?php echo $url_servicios ?>"><strong>Servicios</strong></a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="<?php echo $url_trabajos ?>"><strong>Nuestros trabajos
+                                            </strong></a></li>
+                                            <li role="presentation" class="divider"></li>
+                                            <li><a class="<?php echo $classNavbar ?>" data-speed="2000" data-easing="easeOutQuart" href="<?php echo $url_contacto ?>"><strong>Contáctanos</strong></a></li>
+                                        </ul>
+                                    </div>    
+                                </div>
+                            </div>
                         </div>
                     </div>
 
-                    <!--barra de menu mobiles-->
-                    <div class="navbar navbar-inverse navbar-fixed-top visible-phone" id='barra'>
-                        
-                            
-                                <ul class="nav navbar-nav pull-left">
-                                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"> <i class="icon-reorder"></i></a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="<?php echo $classNavbar ?>" data-speed="2000" data-easing="easeOutQuart" href="<?php echo $url_inicio ?>">Inicio</a></li>
-                                            <li><a class="<?php echo $classNavbar ?>" data-speed="2000" data-easing="easeOutQuart" href="<?php echo $url_nosotros ?>">Nosotros</a></li>
-                                            <li><a class="<?php echo $classNavbar ?>" data-speed="2000" data-easing="easeOutQuart" href="<?php echo $url_servicios ?>">Servicios</a></li>
-                                            <li><a href="<?php echo $url_trabajos ?>">Nuestros trabajos</a></li>
-                                            <li><a class="<?php echo $classNavbar ?>" data-speed="2000" data-easing="easeOutQuart" href="<?php echo $url_contacto ?>">Contáctanos</a></li>
-                                        </ul>
-                                    </li>
-                                </ul> 
-                                <p class="navbar-text text-center"><strong>FVF Obras Y Diseños</strong></p>
-                            
-                        
-                    </div>
+
+
+ 
 				</div>
 			</div>
 		</div>
@@ -97,11 +114,9 @@ if (yii::app()->controller->action->id == "index"){
                                     <div class="col-md-2"></div>
                                     <div class="col-md-2"></div>
                                     <div class="col-md-2"></div>
-                                    <div class="col-md-2" style="text-align:right"><strong>Siguenos en:</strong></div>
-                                    <div class="col-md-2">
-                                        <a href="https://www.facebook.com/fvf.obras" style="text-align:left" target="_blank"><i class="icon-facebook-sign icon-4x"></i></a>
-                                    </div>
-                                    
+                                    <div class="col-md-4"><strong>Síguenos en:</strong>
+                                        <a href="https://www.facebook.com/fvf.obras" style="text-align:center" target="_blank"><i class="icon-facebook-sign icon-4x"></i></a>
+                                    </div> 
                                 </div>
                             </div>
                             <div class="footer">
@@ -115,13 +130,13 @@ if (yii::app()->controller->action->id == "index"){
                         <div class="container visible-phone">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <div class="col-md-6"><strong>Siguenos en:</strong></div>
-                                    <div class="col-md-6">
+                                    <div class="col-md-4"><strong>Síguenos en:</strong></div>
+                                    <div class="col-md-8" style="text-align:center">
                                         <a href="https://www.facebook.com/fvf.obras" style="text-align:left;margin-left:60px" target="_blank"><i class="icon-facebook-sign icon-4x"></i></a>
                                     </div>  
                                 </div>
                             </div>
-                            <div class="footer" style="margin-top:10px">
+                            <div class="footerm" style="margin-top:10px">
                                 <strong>&copy; FvF obras y Diseños. All rights reserved.</strong>
                             </div>
                         </div>

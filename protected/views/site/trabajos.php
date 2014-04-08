@@ -6,11 +6,11 @@
 	}
  ?>
 
-		<div class="container" id='trabajos' style="background-image: url(<?php echo Yii::app()->request->baseUrl; ?>/images/bg3.png);">
+		<div class="container" id='trabajos' style="background-image: url(<?php echo Yii::app()->request->baseUrl; ?>/images/bg6.png);">
             <div class="row-fluid">
-                <div class="span12" style="padding:20px">
+                <div class="col-md-12" style="padding:20px">
                     <h2 class="page-header">Nuestros Trabajos</h2>
-                    <div class="span3">
+                    <div class="col-md-3">
                         <ul class="nav nav-list well">
     		    		<?php foreach ($categorias as $key => $val) {?>
 							<li><a href="<?php echo yii::app()->baseUrl.'/site/trabajos/categoria_id/'.$val->id; ?>"><i class="icon-ok"></i><?php echo $val->name ?></a></li>
@@ -18,8 +18,8 @@
                         </ul>
                         <br>
                     </div>
-                    <div class="span2"></div>
-                    <div class="span4">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-4">
                         <img src="<?php echo yii::app()->baseUrl?>/images/slider1.jpg" style="height:200px;width: 300px;margin:0 auto">                                
                     </div>
                 </div>
@@ -31,7 +31,7 @@
               	<ul class="thumbnails">
               	<?php foreach ($trabajosRecientes as $trabajo) { ?>
                 <?php if (empty($trabajo->imagenes)) continue; $img = $trabajo->imagenes[0];  ?>
-                    <li class="span3 thumbnail">
+                    <li class="col-md-3 thumbnail">
 	                  	<a href="#<?php echo $trabajo->id ?>" class="thumbnail" data-toggle="modal">
 	                      	<img src="<?php echo yii::app()->baseUrl.'/images/'.$img['filename'] ?>" alt="" class="img-rounded" style="width:200px;height: 200px">
 	                	</a>

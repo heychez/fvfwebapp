@@ -4,18 +4,35 @@ footer
     margin-bottom: 40px;
     margin-top: 20px;
 }
+body,span
+{
+    font-size: 17px;
+    font-family: 'Bentham', serif;
+}
+span,i
+{
+    font: bold;
+}
+.navbar-default
+{
+    background-color: #6AC9D6;
+    border-color: #6AC9D6;
+}
+.navbar-default .navbar-nav > li > a {
+color: #000;
+}
 .row
 {
     margin: auto;
 }
 #contenido
 {
-    margin-top: 135px;
+    margin-top: 75px;
 }
 
 #contenedor-carousel
 {
-    margin-top: 50px; 
+    margin-top: 10px; 
     /*box-shadow: 0px 0px 20px rgba(0,0,0,0.5);*/   
 }
 #contenedor-nosotros
@@ -57,7 +74,7 @@ label
 }*/
 #trabajos
 {
-    margin-top: 30px;
+    margin-top: 60px;
     border-radius: 10px;
     box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
     margin-bottom: 20px;
@@ -65,20 +82,15 @@ label
 }
 #barmenu
 {
-    margin-top: 50px;
-    height: 115px;
+     
 }
 .footer
 {
     text-align: center;
 }
-h2, h3, p, label, input, .footer, .span6, #icono2, .span2
+h3
 {
-    font-family: 'Fenix', serif;
-}
-.nav li 
-{
-    font-family: 'Fenix', serif;   
+    text-decoration: underline;
 }
 iframe
 {
@@ -120,7 +132,7 @@ iframe
     #mapa iframe{
         width:275px;
         height:245px;
-        margin-left: 30px; 
+        margin-left: 0px; 
     }
     #contenido
     {
@@ -143,6 +155,10 @@ iframe
     #contenedor-carousel
     {
         margin-top: 10px;
+    }
+    .container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
+        margin-right: 15px;
+        margin-left: 15px;
     }
 }
 
