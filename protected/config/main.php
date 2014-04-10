@@ -58,6 +58,7 @@ return array(
 		),
 		*/
 		// uncomment the following to use a MySQL database
+		
 		'db'=>array(
 			'connectionString' => 'mysql:host=localhost;dbname=fvf_db',
 			'emulatePrepare' => true,
@@ -65,6 +66,13 @@ return array(
 			'password' => '',
 			'charset' => 'utf8',
 		),
+		/*'db'=>array(
+			'connectionString' => 'mysql:host=sql3.freemysqlhosting.net;dbname=sql336276',
+			'emulatePrepare' => true,
+			'username' => 'sql336276',
+			'password' => 'gA4*yK4!',
+			'charset' => 'utf8',
+		),*/
 		
 		'errorHandler'=>array(
 			// use 'site/error' action to display errors
